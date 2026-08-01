@@ -10,8 +10,9 @@ real-time image generation, and intelligent session management.
 🔗 Original Version (v1): https://github.com/urbanpeppermint/Sanctum
 
 Sanctum delivers guided breathing exercises, acupressure stress-relief sessions,
-and chakra awareness meditations — all through voice, text, and AI-generated
-instructional imagery displayed directly in your field of view.
+chakra tuning with scoped awareness scripts, manifestation visualization with a
+saved Vision Vault — all through voice, text, and AI-generated imagery in your
+field of view.
 
 ---
 
@@ -38,16 +39,19 @@ instructional imagery displayed directly in your field of view.
 
 ### 3. Chakra Awareness & Tuning 🎵
 - 7 dedicated buttons, one per chakra (Root → Crown)
-- Each button is designed to accompany a chakra-tuned music track already playing
-- AI-generated ~1-minute awareness script including:
-  - Guided body focus to the chakra's location
-  - Color visualization meditation
-  - Breathing into the energy center
-  - Theme affirmation (safety, creativity, love, truth, etc.)
-- Voice layers naturally over the existing music
+- Each button shows a **tuning scope card** (what this center addresses)
+- AI-generated ~1-minute scoped script — body focus, color visualization, breath, affirmation
+- Voice layers over chakra-tuned music (music triggered separately in scene)
 - Never mentions frequency or Hz — refers only to "healing tones"
 
-### 4. Intelligent Session Management 🔄
+### 4. Manifestation Practice ✨
+- Describe an intention (custom text in Inspector, or rotating suggestions)
+- AI classifies chakra alignment and checks wellness scope boundaries
+- DALL·E generates beautiful symbolic vision art (not medical diagrams)
+- ~60s guided visualization voice script
+- **Vision Vault** — save visions to device storage, browse later with Vault / Next / Prev
+
+### 5. Intelligent Session Management 🔄
 - Any button press instantly cancels the currently running session
 - All buttons remain visible and interactive at all times
 - sessionCancelled flag checked after every async call to prevent stale callbacks
@@ -57,30 +61,30 @@ instructional imagery displayed directly in your field of view.
 
 ## 🏗️ Architecture
 
-BreathingPracticeAssistant (@component)
+**SanctumController** (`Assets/Scripts/Sanctum/SanctumController.ts`) — modular replacement for `ExampleOAICalls`
 
-Session Handlers:
-- handleBreathingPressed() → script → voice → text phases → pose image
-- handleAcupressurePressed() → preload images → script → voice → image cycle
-- handleChakraPressed(index) → script → voice → text overlay
+```
+SanctumController
+├── Breathing      → preload image → script → voice → phase text
+├── Acupressure    → preload 3 images → script → voice → point cycle
+├── Chakra (×7)    → scope card → scoped script → voice
+├── Manifestation  → classify intent → vision image → script → voice
+└── VisionVault    → persistentStorage save/load/browse
+```
 
-Shared Services:
-- doVoiceGuidance(script) → OpenAI TTS → AudioComponent
-- generateTexture(prompt) → DALL·E 3 → b64_json → Base64.decodeTextureAsync
-- cancelActiveSession() → stop audio, hide image, reset flags
+Supporting modules:
+- `SanctumData.ts` — catalogues, scope prompts, manifestation style
+- `SanctumServices.ts` — OpenAI wrappers, VisionVault class
+- `SanctumTypes.ts` — shared interfaces
 
-Data Catalogues:
-- acupressurePoints[] → 5 points with name, location, instruction, imagePrompt
-- chakras[] → 7 chakras with name, color, location, element, theme, awareness
-- breathingImagePrompts[] → 2 pose diagram prompts
+Legacy: `BreathingPracticeAssistant` / `ExampleOAICalls` in RemoteServiceGatewayExamples package (still works; use SanctumController for new features)
 
 Inputs:
-- textDisplay: Text
-- image: Image
-- spinner: SceneObject
-- breathingButton: SceneObject
-- acupressureButton: SceneObject
-- 7× chakraButton: SceneObject
+- textDisplay, image, spinner
+- breathingButton, acupressureButton, **manifestationButton**, **vaultButton**
+- **saveVisionButton**, **vaultNextButton**, **vaultPrevButton** (optional)
+- customManifestIntent (TextArea)
+- 7× chakraButton
 
 ---
 
@@ -109,15 +113,17 @@ Inputs:
 2. Ensure these packages are installed:
    - SpectaclesInteractionKit.lspkg
    - RemoteServiceGatewayExamples.lspkg
-3. Create and assign:
+3. Attach **SanctumController** (`Assets/Scripts/Sanctum/SanctumController.ts`) to your controller object
+4. Wire inputs in Inspector (see `docs/SETUP-SANCTUM-CONTROLLER.md`):
    - Text → textDisplay
    - Image → image
    - SceneObject → spinner
-   - 2 SceneObject buttons → breathingButton, acupressureButton
+   - Practice buttons → breathing, acupressure, manifestation, vault
    - 7 SceneObject buttons → chakra buttons
-4. Attach BreathingPracticeAssistant script
-5. Wire inputs in Inspector
-6. Push to Spectacles and test
+5. Push to Spectacles and test
+
+**Full UX spec:** `docs/SANCTUM-UX-SPEC.md`  
+**Wiring guide:** `docs/SETUP-SANCTUM-CONTROLLER.md`
 
 ---
 
@@ -162,4 +168,5 @@ MIT License
 
 - Snap Inc.
 - OpenAI
-- Snap AR Community
+- Spectacles Community
+- Spectacles Agent Skills by PtPavloTkachenko
