@@ -1,0 +1,731 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: a6f4862cdc1756fb7c4de891c80ef01e
+  FileHash: f539b02a8da710f95de22ac9eb4e6af4
+  NativePackageItems:
+    - !<own> 7c1973b5-3120-ddc1-844b-e65e512fdb65
+    - !<own> 169fda62-4ef3-e502-72d2-13e0183b50ff
+    - !<own> 23491a3d-0e70-966b-7809-6862e2c0d05e
+    - !<own> 74823b75-20ef-e89e-39e3-cab068cdaecc
+    - !<own> b857587c-e506-1004-8c4b-11b373709951
+    - !<own> 2acb16c6-749a-5cab-44ba-97f37ed013a0
+    - !<own> 4defe279-9bb9-d191-f145-1de27ba65d02
+    - !<own> 5c2cdf00-f254-4e52-d9c0-6dfecc3d2271
+    - !<own> 6df8345c-db63-0514-9531-b049dd787b0c
+    - !<own> a1c6217e-1cb0-a0bd-96ae-d69173fc1f5d
+    - !<own> 12c3a923-5bf1-a892-cca5-f2a8f06f78c4
+    - !<own> 362e8faa-5ba1-be8f-896a-ced3c6ac5c7b
+    - !<own> 865692a0-caf0-c97e-1772-027319acd143
+    - !<own> 6074ef06-c8c1-d9db-d8ac-47649b27b2ef
+- !<SceneObject/0b79727c-c22c-430b-4551-87a8f7135b88>
+  PrefabRemaps:
+    []
+  Name: "Depth Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1866713a-cc66-4210-4988-cf90bccdc930
+- !<AssetImportMetadata/12c3a923-5bf1-a892-cca5-f2a8f06f78c4>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 36bd0327-6d6c-4a63-8aa6-7e33248f6d9a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 36bd0327-6d6c-4a63-8aa6-7e33248f6d9a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 60e23114-0b12-4bf0-b444-91e540a00312
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/169fda62-4ef3-e502-72d2-13e0183b50ff>
+  ImportedAssetIds:
+    Texture: !<reference> 910bb4c4-69da-47a3-ab02-db1b3ea87695
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 910bb4c4-69da-47a3-ab02-db1b3ea87695
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<ScriptComponent/1866713a-cc66-4210-4988-cf90bccdc930>
+  PrefabRemaps:
+    []
+  Name: DepthEffectController_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> 9b5613ce-8ae6-4b07-97dd-2253507253de
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      materials: !<reference.Material[]>
+        - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+      depthTexture: !<reference.Texture> b7fa0f44-3c1a-49f2-acc1-6312e6c02b90
+      placeholderTexture: !<reference.Texture> 910bb4c4-69da-47a3-ab02-db1b3ea87695
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/211fdab7-7b03-40cc-513d-2437e4ca8d89>
+  PrefabRemaps:
+    []
+  Name: DOF
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fe53e3b3-85e3-42ad-6812-bd1b92c7945f
+- !<AssetImportMetadata/23491a3d-0e70-966b-7809-6862e2c0d05e>
+  ImportedAssetIds:
+    Material: !<reference> 56ed5b81-f166-47db-8e94-25e2f6c85a76
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 56ed5b81-f166-47db-8e94-25e2f6c85a76
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/23f25184-dd56-489d-663a-a36be6ef4fb3>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 'Make sure to delete the "Info Card [DELETE_ME]" object'
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.000000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<AssetImportMetadata/2acb16c6-749a-5cab-44ba-97f37ed013a0>
+  ImportedAssetIds:
+    Texture: !<reference> 821a2ef5-5b0e-4baf-bab7-f7eea682bd9c
+  ImporterName: ScreenTextureImporter
+  PrimaryAsset: !<reference> 821a2ef5-5b0e-4baf-bab7-f7eea682bd9c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/31ac7dd9-0d8e-4eab-7f9d-e4ec786ede76>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    The depth of field effect will only work with
+    devices that generate depth data.
+    
+    To see the depth effect in Lens Studio Preview
+    panel, select a depth preview video.
+    
+    When depth data is not available, a user-defined
+    black and white texture is automatically used
+    to blur part of the screen.
+    
+    Check "Depth Controller [EDIT_ME]" object to
+    control the depth effect.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 4929ce57-c393-490b-aefb-cc105dcb4447
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.497627, y: 0.497612, z: 0.497627, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<AssetImportMetadata/362e8faa-5ba1-be8f-896a-ced3c6ac5c7b>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 60b79573-8dfb-4561-a1ae-5b0c62b11a5b
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 60b79573-8dfb-4561-a1ae-5b0c62b11a5b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4defe279-9bb9-d191-f145-1de27ba65d02>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9b5613ce-8ae6-4b07-97dd-2253507253de
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9b5613ce-8ae6-4b07-97dd-2253507253de
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5df2e5f8-fb65-48c4-a410-3311f00c871c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4f96ca79-9ff3-4ed6-4ff7-e6229e64ca3a>
+  PrefabRemaps:
+    []
+  Name: Title
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.276599, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3c3c0d9-b73a-453d-66f4-85847c98f7e9
+- !<ScriptAssetData/4fb7bc3d-2659-4933-8750-7453908d1291>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6b6d36c8-45bf-414d-abff-f36b6ed79c8f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/5c2cdf00-f254-4e52-d9c0-6dfecc3d2271>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6e6bf776-8755-4108-a30f-31c5f7fce006
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6e6bf776-8755-4108-a30f-31c5f7fce006
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4fb7bc3d-2659-4933-8750-7453908d1291
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5df2e5f8-fb65-48c4-a410-3311f00c871c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b70d0cb8-f439-4027-8a28-efa5254db381
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    depthTexture: false
+    materials: false
+    placeholderTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - materials: !<reference.Material[]>
+        []
+      depthTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      placeholderTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/6074ef06-c8c1-d9db-d8ac-47649b27b2ef>
+  ImportedAssetIds:
+    Font: !<reference> 4929ce57-c393-490b-aefb-cc105dcb4447
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> 4929ce57-c393-490b-aefb-cc105dcb4447
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/60e23114-0b12-4bf0-b444-91e540a00312>
+  Prototype: !<ObjectOwner/3d26782b-2cd0-4ec1-922b-e0d0b10603c8>
+    PackagePath: ""
+    objects:
+      - !<own> 82611222-2418-471a-7567-1a6372cad273
+- !<AssetImportMetadata/6df8345c-db63-0514-9531-b049dd787b0c>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 1c3279c3-a342-4c34-90dc-2230a89272de
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 1c3279c3-a342-4c34-90dc-2230a89272de
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/74823b75-20ef-e89e-39e3-cab068cdaecc>
+  ImportedAssetIds:
+    Material: !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7c1973b5-3120-ddc1-844b-e65e512fdb65>
+  ImportedAssetIds:
+    Texture: !<reference> c90ec331-fc98-4abb-ae25-1f146e5978e2
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> c90ec331-fc98-4abb-ae25-1f146e5978e2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<SceneObject/82611222-2418-471a-7567-1a6372cad273>
+  PrefabRemaps:
+    []
+  Name: DepthOfField__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0b79727c-c22c-430b-4551-87a8f7135b88
+    - !<own> 211fdab7-7b03-40cc-513d-2437e4ca8d89
+    - !<own> e93cf016-26ed-48d1-6ff6-8627ba265def
+  Components:
+    []
+- !<AssetImportMetadata/865692a0-caf0-c97e-1772-027319acd143>
+  ImportedAssetIds:
+    Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  ImporterName: FontImporter
+  PrimaryAsset: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/9e811ddb-170e-4619-4381-9a25b9e8c3fa>
+  PrefabRemaps:
+    []
+  Name: Desctiption
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.399348, y: 0.181084, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 31ac7dd9-0d8e-4eab-7f9d-e4ec786ede76
+- !<AssetImportMetadata/a1c6217e-1cb0-a0bd-96ae-d69173fc1f5d>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> ecf759e4-6053-4fd7-9714-5eae65487463
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> ecf759e4-6053-4fd7-9714-5eae65487463
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/b3c3c0d9-b73a-453d-66f4-85847c98f7e9>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Important Note
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 3
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: -0.040000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/b6ac884d-7d8b-485a-7e30-878eb71f83e5>
+  PrefabRemaps:
+    []
+  Name: Delete Description
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.417482, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 23f25184-dd56-489d-663a-a36be6ef4fb3
+- !<AssetImportMetadata/b857587c-e506-1004-8c4b-11b373709951>
+  ImportedAssetIds:
+    Texture: !<reference> b7fa0f44-3c1a-49f2-acc1-6312e6c02b90
+  ImporterName: DepthTextureImporter
+  PrimaryAsset: !<reference> b7fa0f44-3c1a-49f2-acc1-6312e6c02b90
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/c61d5d8d-a650-4adf-51d6-61772b913e9e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 56ed5b81-f166-47db-8e94-25e2f6c85a76
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/e93cf016-26ed-48d1-6ff6-8627ba265def>
+  PrefabRemaps:
+    []
+  Name: "Info Card [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 25.742777, y: 25.742777, z: 25.742777}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4f96ca79-9ff3-4ed6-4ff7-e6229e64ca3a
+    - !<own> 9e811ddb-170e-4619-4381-9a25b9e8c3fa
+    - !<own> b6ac884d-7d8b-485a-7e30-878eb71f83e5
+  Components:
+    - !<own> c61d5d8d-a650-4adf-51d6-61772b913e9e
+- !<PostEffectVisual/fe53e3b3-85e3-42ad-6812-bd1b92c7945f>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697

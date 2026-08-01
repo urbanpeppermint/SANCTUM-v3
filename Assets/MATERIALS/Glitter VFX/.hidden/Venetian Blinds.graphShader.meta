@@ -1,0 +1,17 @@
+- !<AssetImportMetadata/77d5d14e-904e-4cd2-a06e-ef5ba3065895>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> e5469b05-bb97-4a44-8b8a-0f75cfe03cdd
+    BinAsset: !<reference> a1537b9e-0eb6-4d2e-b6c1-880170ff1d71
+  ImporterName: BinAssetImporter
+  PrimaryAsset: !<reference> a1537b9e-0eb6-4d2e-b6c1-880170ff1d71
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

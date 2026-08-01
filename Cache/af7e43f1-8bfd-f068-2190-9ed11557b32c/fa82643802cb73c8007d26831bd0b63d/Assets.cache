@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6eb492e9-1633-49cf-8037-5b03a7cf3b34: af7e43f1-8bfd-f068-2190-9ed11557b32c/fa82643802cb73c8007d26831bd0b63d/Data/SimpleRefl_02_test_purple_32.jpg
+  Assets:
+    - !<FileTexture/6eb492e9-1633-49cf-8037-5b03a7cf3b34>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: fa82643802cb73c8007d26831bd0b63d
+  FileHash: 76fea6de0cf183b6bfe89f6b446cb8b6
+  NativePackageItems:
+    []

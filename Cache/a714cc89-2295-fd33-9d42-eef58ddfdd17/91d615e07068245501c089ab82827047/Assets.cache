@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    733db416-e15e-44a9-b3f8-65fb98f1d141: a714cc89-2295-fd33-9d42-eef58ddfdd17/91d615e07068245501c089ab82827047/Data/error.png
+  Assets:
+    - !<FileTexture/733db416-e15e-44a9-b3f8-65fb98f1d141>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 37
+        Height: 34
+  SourceHash: 91d615e07068245501c089ab82827047
+  FileHash: ce3e28c30bb4db89219567c943ab5160
+  NativePackageItems:
+    []

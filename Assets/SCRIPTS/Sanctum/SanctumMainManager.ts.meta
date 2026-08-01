@@ -1,0 +1,122 @@
+- !<AssetImportMetadata/b3c4d5e6-f7a8-4901-bcde-123456789abc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a8f3e2d1-4b5c-6d7e-8f90-a1b2c3d4e5f6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a8f3e2d1-4b5c-6d7e-8f90-a1b2c3d4e5f6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c4d5e6f7-a8b9-4012-cdef-234567890abc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c4d5e6f7-a8b9-4012-cdef-234567890abc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1cef404d-481e-4e37-98e7-e36d675b7768
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioManagerObject: false
+    buttonHeight: false
+    fontBody: false
+    fontButton: false
+    fontCaption: false
+    fontHeadline: false
+    hideLegacyMenu: false
+    hubAnchorObject: false
+    hubParentObject: false
+    legacyAcupressureButton: false
+    legacyBreathingButton: false
+    legacyManifestButton: false
+    panelPadding: false
+    panelPosition: false
+    panelWidth: false
+    rowGap: false
+    sanctumControllerObject: false
+    spinner: false
+    viewportHeight: false
+    visionImage: false
+    visionLocalPosition: false
+    visionScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sanctumControllerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      audioManagerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      visionImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      panelPosition: !<Vec3> {x: 28.000000, y: 8.000000, z: -115.000000}
+      hubParentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hubAnchorObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panelWidth: !<float> 0.000000
+      panelPadding: !<float> 0.000000
+      buttonHeight: !<float> 0.000000
+      rowGap: !<float> 0.000000
+      viewportHeight: !<float> 0.000000
+      fontHeadline: !<float> 0.000000
+      fontBody: !<float> 0.000000
+      fontCaption: !<float> 0.000000
+      fontButton: !<float> 0.000000
+      visionLocalPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      visionScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      legacyBreathingButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      legacyAcupressureButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      legacyManifestButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hideLegacyMenu: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Core"}'
+    - '// @input SceneObject sanctumControllerObject {"label":"Sanctum Controller"}'
+    - '// @input SceneObject audioManagerObject {"label":"Audio Manager (BUTTONS)"}'
+    - // @input SceneObject spinner
+    - // @input Component.Image visionImage
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Hub Placement"}'
+    - '// @input vec3 panelPosition = {28,8,-115} {"label":"Panel position (cm, camera-local)"}'
+    - '// @input SceneObject hubParentObject {"label":"Hub parent (scene object)", "hint":"Drag Camera here. Defaults to Camera when empty."}'
+    - "// @input SceneObject hubAnchorObject {\"label\":\"Hub anchor (optional)\", \"hint\":\"Use this object's local position instead of Panel position.\"}"
+    - '// @input float panelWidth = 28 {"label":"Panel width (cm)"}'
+    - '// @input float panelPadding = 1.4 {"label":"Panel padding (cm)"}'
+    - '// @input float buttonHeight = 3.8 {"label":"Button height (cm)"}'
+    - '// @input float rowGap = 0.65 {"label":"Row gap (cm)"}'
+    - '// @input float viewportHeight = 18 {"label":"View area height (cm)"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Hub Typography (cm em-square)"}'
+    - // @input float fontHeadline = 46
+    - // @input float fontBody = 32
+    - // @input float fontCaption = 30
+    - // @input float fontButton = 32
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Vision Display"}'
+    - '// @input vec3 visionLocalPosition = {-24,6,-95} {"label":"Vision local position (cm)"}'
+    - '// @input vec3 visionScale = {36,36,1} {"label":"Vision scale"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Legacy Menu (hide after hub builds)"}'
+    - // @input SceneObject legacyBreathingButton
+    - // @input SceneObject legacyAcupressureButton
+    - // @input SceneObject legacyManifestButton
+    - '// @input bool hideLegacyMenu = true {"label":"Hide legacy ground lotus buttons"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    73f52616-d3f7-4428-b91c-91cf93658f14: b38854b6-ac8b-a2df-b675-7953de28fe61/480d077f6809dd911d62a77fc902aed3/Data/HandOccluder.graphShader
+  Assets:
+    - !<BinAsset/73f52616-d3f7-4428-b91c-91cf93658f14>
+      PackagePath: ""
+  SourceHash: 480d077f6809dd911d62a77fc902aed3
+  FileHash: 10332457e657f1a8a3619b50bd30c244
+  NativePackageItems:
+    []

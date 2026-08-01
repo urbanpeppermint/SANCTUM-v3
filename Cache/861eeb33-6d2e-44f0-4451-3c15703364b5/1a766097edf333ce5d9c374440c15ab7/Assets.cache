@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0fcf33ca-2c55-451b-a14a-c3aea363b2aa: 861eeb33-6d2e-44f0-4451-3c15703364b5/1a766097edf333ce5d9c374440c15ab7/Data/BeveledPrism.mesh
+  Assets:
+    - !<FileMesh/0fcf33ca-2c55-451b-a14a-c3aea363b2aa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 744
+        Vertices: 664
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.002000, y: 2.002000, z: 2.000000}
+  SourceHash: 1a766097edf333ce5d9c374440c15ab7
+  FileHash: 556f0af4c0ce04a0d06d428f62410ea6
+  NativePackageItems:
+    []

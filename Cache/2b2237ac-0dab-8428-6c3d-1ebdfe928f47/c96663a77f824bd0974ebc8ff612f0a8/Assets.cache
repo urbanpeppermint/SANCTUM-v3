@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    2f1510e0-999f-473a-af20-b76f49fa0e23: 2b2237ac-0dab-8428-6c3d-1ebdfe928f47/c96663a77f824bd0974ebc8ff612f0a8/Data/uber_pbr.graphShader
+  Assets:
+    - !<BinAsset/2f1510e0-999f-473a-af20-b76f49fa0e23>
+      PackagePath: ""
+  SourceHash: c96663a77f824bd0974ebc8ff612f0a8
+  FileHash: ac6bd31bed66b2b89dd26566a1d553bc
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c8aee8e4-f57c-403c-b0c7-d2681d11594b: 564a87a4-a691-9397-69bd-9ced1b3c0a77/de6c47a7f73d6eba038121e81a72f381/Data/circle-distance-lut.png
+  Assets:
+    - !<FileTexture/c8aee8e4-f57c-403c-b0c7-d2681d11594b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: de6c47a7f73d6eba038121e81a72f381
+  FileHash: 98b085db2bdf49984c0c90eb0d65e1da
+  NativePackageItems:
+    []

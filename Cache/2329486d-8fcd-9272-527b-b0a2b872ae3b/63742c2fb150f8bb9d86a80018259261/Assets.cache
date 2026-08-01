@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    c177f450-bf0d-4b69-b47e-9a8b55197f9f: 2329486d-8fcd-9272-527b-b0a2b872ae3b/63742c2fb150f8bb9d86a80018259261/Data/FingerTipGlow.graphShader
+  Assets:
+    - !<BinAsset/c177f450-bf0d-4b69-b47e-9a8b55197f9f>
+      PackagePath: ""
+  SourceHash: 63742c2fb150f8bb9d86a80018259261
+  FileHash: d737b8a5fdcbb1922f17980e26d20be8
+  NativePackageItems:
+    []

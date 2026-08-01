@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a855e8bc-789a-4b36-ae55-326c89b4f738: 43513c5a-d356-78c8-ae7c-9f53692b9225/e8658fc5cdac0041bdb7c453cad5cad7/Data/iridescence_combined.png
+  Assets:
+    - !<FileTexture/a855e8bc-789a-4b36-ae55-326c89b4f738>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 3
+  SourceHash: e8658fc5cdac0041bdb7c453cad5cad7
+  FileHash: db86009fa3d1692f147b51cc34754b2b
+  NativePackageItems:
+    []

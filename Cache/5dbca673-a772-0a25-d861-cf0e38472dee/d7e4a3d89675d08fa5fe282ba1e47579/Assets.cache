@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    249eefa0-70d2-406d-95d2-8644bdeb43a1: 5dbca673-a772-0a25-d861-cf0e38472dee/d7e4a3d89675d08fa5fe282ba1e47579/Data/HoverAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/249eefa0-70d2-406d-95d2-8644bdeb43a1>
+      PackagePath: ""
+  SourceHash: d7e4a3d89675d08fa5fe282ba1e47579
+  FileHash: bdcca17ef0df8d53d5299cadae5c43ce
+  NativePackageItems:
+    []

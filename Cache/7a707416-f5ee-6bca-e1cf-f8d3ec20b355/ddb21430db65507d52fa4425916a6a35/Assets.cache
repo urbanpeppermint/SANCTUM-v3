@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    7610892b-2fd9-41f3-87f6-abd72c3480ee: 7a707416-f5ee-6bca-e1cf-f8d3ec20b355/ddb21430db65507d52fa4425916a6a35/Data/DefaultCapsuleShader.graphShader
+  Assets:
+    - !<BinAsset/7610892b-2fd9-41f3-87f6-abd72c3480ee>
+      PackagePath: ""
+  SourceHash: ddb21430db65507d52fa4425916a6a35
+  FileHash: 069e4af594236f004ae2dc0286ee5eb8
+  NativePackageItems:
+    []

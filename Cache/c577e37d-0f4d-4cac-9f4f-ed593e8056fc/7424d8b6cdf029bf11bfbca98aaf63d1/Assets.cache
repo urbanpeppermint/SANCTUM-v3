@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3702ce63-0d53-4eca-bac9-d22822b4e074: c577e37d-0f4d-4cac-9f4f-ed593e8056fc/7424d8b6cdf029bf11bfbca98aaf63d1/Data/TweenSphere.mesh
+  Assets:
+    - !<FileMesh/3702ce63-0d53-4eca-bac9-d22822b4e074>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 760
+        Vertices: 439
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 12.000001, y: 12.000000, z: 12.000004}
+  SourceHash: 7424d8b6cdf029bf11bfbca98aaf63d1
+  FileHash: 5c4b1407d5545834837c10ceeafc6ad9
+  NativePackageItems:
+    []

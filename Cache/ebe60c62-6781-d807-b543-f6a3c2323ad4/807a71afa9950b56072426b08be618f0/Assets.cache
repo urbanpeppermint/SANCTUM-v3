@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    fd6f7f63-3e7d-4bfe-8f69-ec2dfc444d38: ebe60c62-6781-d807-b543-f6a3c2323ad4/807a71afa9950b56072426b08be618f0/Data/258 Hz Rapid Healing Frequency ROOT.mp3
+  Assets:
+    - !<FileAudioTrack/fd6f7f63-3e7d-4bfe-8f69-ec2dfc444d38>
+      PackagePath: ""
+  SourceHash: 807a71afa9950b56072426b08be618f0
+  FileHash: e09158c96996d1f5de376fe2d483b024
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    d160e1a5-7fdb-4baf-ac19-1a157bd4e003: b4641bd0-c9b3-66a9-c6a7-4522254c589d/05d5b1bd78b4ed6e7feba5aaa649b68d/Data/ViewingPlane.graphShader
+  Assets:
+    - !<BinAsset/d160e1a5-7fdb-4baf-ac19-1a157bd4e003>
+      PackagePath: ""
+  SourceHash: 05d5b1bd78b4ed6e7feba5aaa649b68d
+  FileHash: c5b056ea142db15ddac0683a9e04d689
+  NativePackageItems:
+    []

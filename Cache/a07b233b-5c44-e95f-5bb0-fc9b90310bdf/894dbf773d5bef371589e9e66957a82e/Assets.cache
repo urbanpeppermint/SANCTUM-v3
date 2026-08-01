@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f680f9f1-7a92-4c5d-be52-f46cfcdca923: a07b233b-5c44-e95f-5bb0-fc9b90310bdf/894dbf773d5bef371589e9e66957a82e/Data/Sphere_Mat.graphShader
+  Assets:
+    - !<BinAsset/f680f9f1-7a92-4c5d-be52-f46cfcdca923>
+      PackagePath: ""
+  SourceHash: 894dbf773d5bef371589e9e66957a82e
+  FileHash: d01107dcbb5fb4260bb56eac74139377
+  NativePackageItems:
+    []

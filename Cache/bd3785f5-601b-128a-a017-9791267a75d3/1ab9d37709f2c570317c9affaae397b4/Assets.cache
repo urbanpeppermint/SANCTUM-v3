@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    421f0d64-54ef-4532-b848-503217abaf77: bd3785f5-601b-128a-a017-9791267a75d3/1ab9d37709f2c570317c9affaae397b4/Data/simple_pbr.graphShader
+  Assets:
+    - !<BinAsset/421f0d64-54ef-4532-b848-503217abaf77>
+      PackagePath: ""
+  SourceHash: 1ab9d37709f2c570317c9affaae397b4
+  FileHash: 6f33c05b92755ce15800134f82684335
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+data:
+  externalSources:
+    - 0648c285-3f6f-4683-984a-315ca8a3cd4b: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/Utilities@2.0.0@0e997a29e67777d44ecd8d0db2419d13/Utilities.lspkg
+    - 142fc457-f4e8-400e-b3fe-0cfd7aea9f38: /Applications/Lens Studio 2.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/Base.png
+    - 1c116903-ad6d-4206-aa8d-aa8a40103349: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKit@0.16.4/SpectaclesInteractionKit.lspkg
+    - 2c679a99-6efc-4181-9ac5-55a84db72a8b: /Applications/Lens Studio 3.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Disc.mesh
+    - 341b9160-788a-46a4-b558-ecb845c5910b: /Applications/Lens Studio 2.app/Contents/JsPlugins/PresetsRegistry/Assets/Script/Resources/Untitled JavaScript.js
+    - 482ec7d9-c00d-4d36-ac91-09f7508c5ee3: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/VolumetricLine@0.1.0/VolumetricLine.lspkg
+    - 70ff7f52-6a1e-4bad-82ef-3954dfd156e3: /Applications/Lens Studio 2.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/MaterialParams.png
+    - 9c4807f7-b7dc-4993-8d4a-e48afd0c72e6: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/SnapDecorators@2.0.0@7a8eec63470659b0b23f5cd1a276de81/SnapDecorators.lspkg
+    - aadadc0c-7bfe-4551-9d2e-188f3e9be7e4: /Applications/Lens Studio 2.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/Normal.png
+    - b645639c-ff6b-46ff-8ae1-eac089e9a931: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/GameController@0.3.0/GameController.lspkg
+    - fdfb6ba1-6f1a-4704-a29c-9f9b58a2ac6c: /Users/elsafz/Library/Preferences/Snap/Lens Studio/LibraryComponents/RemoteServiceGateway@0.1.9/RemoteServiceGateway.lspkg

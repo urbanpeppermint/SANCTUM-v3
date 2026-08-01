@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    344cac9a-3382-4cf7-b9ae-e1c554d3e7a7: 2d6580eb-7cbb-2313-b67a-ae91a10aa9fd/f2ee735100705c09defdfbe420beb3e9/Data/rainbow-waves-background-free-vector.jpg
+  Assets:
+    - !<FileTexture/344cac9a-3382-4cf7-b9ae-e1c554d3e7a7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 625
+        Height: 400
+  SourceHash: f2ee735100705c09defdfbe420beb3e9
+  FileHash: 87aace6d804078df503f788aeb98099f
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8dcefdee-acce-40ec-90ef-74c81f145afc: 0e372366-d175-e5d1-d866-0b1fe645a3f6/048ae2a40f546b62a3aa55c83cd61c58/Data/RayShader.graphShader
+  Assets:
+    - !<BinAsset/8dcefdee-acce-40ec-90ef-74c81f145afc>
+      PackagePath: ""
+  SourceHash: 048ae2a40f546b62a3aa55c83cd61c58
+  FileHash: ae7ced9480bacc4d99731901647229cd
+  NativePackageItems:
+    []

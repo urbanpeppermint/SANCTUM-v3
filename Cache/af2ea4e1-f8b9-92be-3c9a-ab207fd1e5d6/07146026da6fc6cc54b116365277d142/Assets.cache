@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    143d4987-1e8d-460f-8122-f60126d4744f: af2ea4e1-f8b9-92be-3c9a-ab207fd1e5d6/07146026da6fc6cc54b116365277d142/Data/ScaleBasedTargetOutline.graphShader
+  Assets:
+    - !<BinAsset/143d4987-1e8d-460f-8122-f60126d4744f>
+      PackagePath: ""
+  SourceHash: 07146026da6fc6cc54b116365277d142
+  FileHash: eb83afc25754508a58e6cfa6c7d9a82d
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    fb12c483-7c2d-49a2-a33b-a91a728feb93: 415f4bb2-b457-1d58-799a-43fefbcc6863/6094229c1330badd547e6814e8d4352d/Data/ui_loading_indicator.mesh
+  Assets:
+    - !<FileMesh/fb12c483-7c2d-49a2-a33b-a91a728feb93>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1536
+        Vertices: 833
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.139871, y: 0.022535, z: 0.139871}
+  SourceHash: 6094229c1330badd547e6814e8d4352d
+  FileHash: 081e79c5ff93dd582e40d6b48977658d
+  NativePackageItems:
+    []

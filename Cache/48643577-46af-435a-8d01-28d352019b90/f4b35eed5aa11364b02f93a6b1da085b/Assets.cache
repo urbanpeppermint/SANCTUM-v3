@@ -1,0 +1,76 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: f4b35eed5aa11364b02f93a6b1da085b
+  FileHash: e3f53ef3c2911d872e14122ab9b41066
+  NativePackageItems:
+    - !<own> f1f73724-58ac-5466-ba23-d0792eefbbde
+    - !<own> d97ab1d0-d1ad-ac02-adb2-2e079bc6362d
+    - !<own> 6c466ec0-eabd-08d3-bc34-4dd530777c07
+    - !<own> 9347ddb5-4e92-8364-fedf-d432d76917f5
+- !<AssetImportMetadata/6c466ec0-eabd-08d3-bc34-4dd530777c07>
+  ImportedAssetIds:
+    Material: !<reference> a2908d7b-3181-4290-9d88-d94d852ed1d1
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a2908d7b-3181-4290-9d88-d94d852ed1d1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/9347ddb5-4e92-8364-fedf-d432d76917f5>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> abfdff6b-3310-42b2-b733-31fd1f579bae
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> abfdff6b-3310-42b2-b733-31fd1f579bae
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/d97ab1d0-d1ad-ac02-adb2-2e079bc6362d>
+  ImportedAssetIds:
+    Texture: !<reference> 7322f3f4-0ab3-46c2-9353-bf80c3d078fc
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7322f3f4-0ab3-46c2-9353-bf80c3d078fc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f1f73724-58ac-5466-ba23-d0792eefbbde>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> f3fe111a-a123-466a-b6f4-362ed9216ab1
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> f3fe111a-a123-466a-b6f4-362ed9216ab1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

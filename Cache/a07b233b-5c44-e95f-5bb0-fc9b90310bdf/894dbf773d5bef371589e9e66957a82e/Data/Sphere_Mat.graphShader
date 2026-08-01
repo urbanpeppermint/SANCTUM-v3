@@ -1,0 +1,279 @@
+SchemaVersion: 1
+Nodes:
+  ChildNodes:
+    Node0:
+      DependencyIndex: 0
+      LevelID: 5
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Position:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0]
+        Space:
+          ItemIndex: 1
+          ItemList: "Object : World : Camera : Screen ( NDC )"
+      PositionX: -548
+      PositionY: 73
+      TemplateID: node_effect_global_surface_position
+      TemplateVersionMinor: 1
+      Title1: Surface Position
+    Node1:
+      DependencyIndex: 1
+      LevelID: 1
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Column0:
+          Variable: [1.0, 0.0, 0.0, 0.0]
+        Column1:
+          Variable: [0.0, 1.0, 0.0, 0.0]
+        Column2:
+          Variable: [0.0, 0.0, 1.0, 0.0]
+        Column3:
+          Connection0:
+            NodeLevelID: 5
+            PortID: Position
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        Dimension:
+          ItemIndex: 0
+          ItemList: "4 : 3 : 2"
+        Matrix:
+          ClassType1: MATRIX
+          IOType: 1
+          Variable: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+        RotationAngle:
+          Variable: 0.0
+        RotationAxis:
+          Variable: [0.0, 1.0, 0.0]
+        RotationSource:
+          ItemIndex: 0
+          ItemList: "Custom : Axis Rotation : XYZ Rotations"
+        RotationXYZ:
+          Variable: [0.0, 0.0, 0.0]
+      PositionX: -327
+      PositionY: 73
+      TemplateID: node_construct_matrix
+      Title1: Construct Matrix
+    Node2:
+      DependencyIndex: 2
+      LevelID: 2
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        TimeA:
+          Variable: 0.0
+        TimeB:
+          Variable: 0.0
+        TimeBias:
+          Variable: 0.7099999785423279
+        TimeTransition:
+          Variable: 10.0
+        Type:
+          ItemIndex: 1
+          ItemList: "Linear : Smoothstep"
+        Value:
+          IOType: 1
+          Variable: 0.0
+        ValueA:
+          Variable: 0.0
+        ValueB:
+          Variable: 12.0
+      PositionX: -456
+      PositionY: 223
+      TemplateID: node_math_fluctuate
+      Title1: Fluctuate
+    Node3:
+      DependencyIndex: 3
+      LevelID: 6
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Dimension1:
+          ItemIndex: 0
+          ItemList: "1 : 2 : 3"
+        Dimension2:
+          ItemIndex: 0
+          ItemList: "1 : 2 : 3 : disabled"
+        Dimension3:
+          ItemIndex: 0
+          ItemList: "1 : 2 : disabled"
+        Dimension4:
+          ItemIndex: 0
+          ItemList: "1 : disabled"
+        IsColor:
+          Variable: false
+        Value:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Value1:
+          Variable: [1.0, 0.0, 0.0, 0.0]
+        Value2:
+          Connection0:
+            NodeLevelID: 2
+            PortID: Value
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Value3:
+          Variable: [1.0, 0.0, 0.0, 0.0]
+        Value4:
+          Variable: [1.0, 0.0, 0.0, 0.0]
+      PositionX: -265
+      PositionY: 223
+      TemplateID: node_channels_combine
+      Title1: Construct Vector
+    Node4:
+      DependencyIndex: 4
+      LevelID: 3
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Input0:
+          ClassType1: MATRIX
+          Connection0:
+            NodeLevelID: 1
+            PortID: Matrix
+          Variable: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+        Input1:
+          Connection0:
+            NodeLevelID: 6
+            PortID: Value
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        Output:
+          IOType: 1
+          Variable: [0.0, 0.0, 0.0, 0.0]
+        Type0:
+          ItemIndex: 0
+          ItemList: "auto : 4 : 3 : 2"
+        Type1:
+          ItemIndex: 0
+          ItemList: "auto : 4 : 3 : 2"
+        TypeA:
+          ItemIndex: 0
+          ItemList: "Matrix : Vector"
+        TypeB:
+          ItemIndex: 1
+          ItemList: "Matrix : Vector"
+      PositionX: -34
+      PositionY: 122
+      TemplateID: nodes_math_matrix_transform
+      Title1: Transform by Matrix
+    Node5:
+      DependencyIndex: 5
+      LevelID: 0
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        AO:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        Albedo:
+          ClassType1: COLOR
+          Variable: [0.3657587468624115, 0.15434500575065613, 1.0, 1.0]
+        Emissive:
+          ClassType1: COLOR
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        Metallic:
+          Variable: 0.0
+        Mode:
+          ItemIndex: 0
+          ItemList: "Diffuse and Specular : Diffuse Only : Specular Only"
+        Normal:
+          ClassType1: COLOR
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        NormalSpace:
+          ItemIndex: 0
+          ItemList: "Tangent : World"
+        Opacity:
+          Variable: 1.0
+        Output:
+          ClassType1: COLOR
+          IOType: 1
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        Roughness:
+          Variable: 0.0
+        SpecularAO:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        ToneMapping:
+          Variable: true
+      PositionX: -65
+      PositionY: -103
+      TemplateID: nodes_main_material_brdf
+      Title1: PBR ( Lighting )
+      Title2: Diffuse and Specular
+    Node6:
+      CommentSizeX: 0
+      CommentSizeY: 0
+      DependencyIndex: 6
+      LevelID: 4
+      NodeCount: 0
+      NodeType: 1
+      Ports:
+        Depth:
+          Variable: 1.0
+        DepthMode:
+          ItemIndex: 0
+          ItemList: |2-
+            		Non-Linear - Normalized [0 to 1] ) :		Linear - Normalized [-1 to 1] :		View Space - Non-Normalized [-near to -far]	
+        DontFreezeSpec:
+          Variable: false
+        FinalColor:
+          ClassType1: COLOR
+          Connection0:
+            NodeLevelID: 0
+            PortID: Output
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor1:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor2:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        FinalColor3:
+          ClassType1: COLOR
+          Variable: [1.0, 1.0, 1.0, 1.0]
+        GSplatPointSize:
+          Variable: 0.0
+        GSplatRotation:
+          Variable: [0.0, 0.0, 0.0, 1.0]
+        GSplatScale:
+          Variable: [0.0, 0.0, 0.0]
+        Motion Vector Pass:
+          ItemIndex: 0
+          ItemList: "Write Velocity and Depth : Discard Velocity but Write Depth : Discard Velocity and Depth"
+        Negative:
+          Variable: false
+        RayDirection:
+          Variable: [0.0, 1.0, 0.0]
+        RayOrigin:
+          Variable: [0.0, 0.0, 0.0]
+        Targets:
+          ItemIndex: 0
+          ItemList: "1 : 2 : 3 : 4"
+        Type:
+          ItemIndex: 0
+          ItemList: "3D : Post Effect : Hair : Gaussian Splatting"
+        WorldNormal:
+          Variable: [0.0, 1.0, 0.0]
+        WorldPosition:
+          Variable: [0.0, 0.0, 0.0]
+        WorldTangent:
+          Variable: [0.0, 0.0, 1.0]
+        WriteDepth:
+          Variable: false
+      PositionX: 230
+      PositionY: 104
+      TemplateID: nodes_main_graph
+      Title1: Shader
+      Title2: 3D
+  IsSubGraph0: true
+  IsSubGraph1: true
+  IsSubGraph2: true
+  IsSubGraph3: true
+  LevelID: 0
+  NodeType: 3
+  PositionX: 0
+  PositionY: 0
+  TemplateID: nodes_main_subgraph
+  Title1: ""
+SystemID: dev.snap.shaders

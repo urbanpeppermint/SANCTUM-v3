@@ -1,0 +1,440 @@
+- !<AssetImportMetadata/ef778c15-0baa-44cb-aa04-07d11d0113b7>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 36bd0327-6d6c-4a63-8aa6-7e33248f6d9a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 36bd0327-6d6c-4a63-8aa6-7e33248f6d9a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 60e23114-0b12-4bf0-b444-91e540a00312
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/012575c3-b6fc-4534-a57c-e1b0f1ac2ec8>
+  PrefabRemaps:
+    []
+  Name: "Depth Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 717fe9fc-484e-4634-946d-b319c31a55e7
+- !<SceneObject/0419d065-0501-4f02-ac12-8a7b04c4484d>
+  PrefabRemaps:
+    []
+  Name: "Info Card [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 25.742777, y: 25.742777, z: 25.742777}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0711d0c8-0c92-4350-b29c-ce9f43a95b5a
+    - !<own> d013a88e-734c-4e30-b469-07fcd1cd8e35
+    - !<own> 83973c35-0826-4823-acad-849a68344cf1
+  Components:
+    - !<own> ab90d972-ae21-440d-929a-115bfc60c90d
+- !<SceneObject/0711d0c8-0c92-4350-b29c-ce9f43a95b5a>
+  PrefabRemaps:
+    []
+  Name: Title
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.276599, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64940eda-598e-4f3e-aec4-cfb79e3bee79
+- !<Text/2fcf063e-e86d-47e7-9bf2-f5a3b0149aee>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 'Make sure to delete the "Info Card [DELETE_ME]" object'
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.000000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<PostEffectVisual/358fc13b-e7c2-4670-b751-1be5a3753570>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+- !<ObjectPrefabAssetData/60e23114-0b12-4bf0-b444-91e540a00312>
+  SourceRemaps:
+    - 0b79727c-c22c-430b-baae-785708eca477: 012575c3-b6fc-4534-a57c-e1b0f1ac2ec8
+    - 1866713a-cc66-4210-b677-306f433236cf: 717fe9fc-484e-4634-946d-b319c31a55e7
+    - 211fdab7-7b03-40cc-aec2-dbc81b357276: 7db6c6fe-9d79-4c5f-bac0-462b0fc3fdad
+    - 23f25184-dd56-489d-99c5-5c941910b04c: 2fcf063e-e86d-47e7-9bf2-f5a3b0149aee
+    - 31ac7dd9-0d8e-4eab-8062-1b1387912189: c06ff766-a321-4668-8a95-087d37f308ca
+    - 36bd0327-6d6c-4a63-8aa6-7e33248f6d9a: f24ee006-6406-4c2e-9c27-0adced93a394
+    - 4f96ca79-9ff3-4ed6-b008-19dd619b35c5: 0711d0c8-0c92-4350-b29c-ce9f43a95b5a
+    - 82611222-2418-471a-8a98-e59c8d352d8c: f8673217-04ca-4fb7-911e-d4d6c6473536
+    - 9e811ddb-170e-4619-bc7e-65da46173c05: d013a88e-734c-4e30-b469-07fcd1cd8e35
+    - b3c3c0d9-b73a-453d-990b-7a7b83670816: 64940eda-598e-4f3e-aec4-cfb79e3bee79
+    - b6ac884d-7d8b-485a-81cf-787148e07c1a: 83973c35-0826-4823-acad-849a68344cf1
+    - c61d5d8d-a650-4adf-ae29-9e88d46ec161: ab90d972-ae21-440d-929a-115bfc60c90d
+    - e93cf016-26ed-48d1-9009-79d845d9a210: 0419d065-0501-4f02-ac12-8a7b04c4484d
+    - fe53e3b3-85e3-42ad-97ed-42e46d386ba0: 358fc13b-e7c2-4670-b751-1be5a3753570
+  SourceState: !<own> f24ee006-6406-4c2e-9c27-0adced93a394
+- !<Text/64940eda-598e-4f3e-aec4-cfb79e3bee79>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Important Note
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 3
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: -0.040000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<ScriptComponent/717fe9fc-484e-4634-946d-b319c31a55e7>
+  PrefabRemaps:
+    []
+  Name: DepthEffectController_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> 9b5613ce-8ae6-4b07-97dd-2253507253de
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      materials: !<reference.Material[]>
+        - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+      depthTexture: !<reference.Texture> b7fa0f44-3c1a-49f2-acc1-6312e6c02b90
+      placeholderTexture: !<reference.Texture> 910bb4c4-69da-47a3-ab02-db1b3ea87695
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7db6c6fe-9d79-4c5f-bac0-462b0fc3fdad>
+  PrefabRemaps:
+    []
+  Name: DOF
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 358fc13b-e7c2-4670-b751-1be5a3753570
+- !<SceneObject/83973c35-0826-4823-acad-849a68344cf1>
+  PrefabRemaps:
+    []
+  Name: Delete Description
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.417482, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2fcf063e-e86d-47e7-9bf2-f5a3b0149aee
+- !<Image/ab90d972-ae21-440d-929a-115bfc60c90d>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 56ed5b81-f166-47db-8e94-25e2f6c85a76
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Text/c06ff766-a321-4668-8a95-087d37f308ca>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    The depth of field effect will only work with
+    devices that generate depth data.
+    
+    To see the depth effect in Lens Studio Preview
+    panel, select a depth preview video.
+    
+    When depth data is not available, a user-defined
+    black and white texture is automatically used
+    to blur part of the screen.
+    
+    Check "Depth Controller [EDIT_ME]" object to
+    control the depth effect.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 4929ce57-c393-490b-aefb-cc105dcb4447
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.497627, y: 0.497612, z: 0.497627, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/d013a88e-734c-4e30-b469-07fcd1cd8e35>
+  PrefabRemaps:
+    []
+  Name: Desctiption
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.399348, y: 0.181084, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c06ff766-a321-4668-8a95-087d37f308ca
+- !<ObjectPrefab/f24ee006-6406-4c2e-9c27-0adced93a394>
+  PackagePath: ""
+  objects:
+    - !<own> f8673217-04ca-4fb7-911e-d4d6c6473536
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/f8673217-04ca-4fb7-911e-d4d6c6473536>
+  PrefabRemaps:
+    []
+  Name: DepthOfField__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 012575c3-b6fc-4534-a57c-e1b0f1ac2ec8
+    - !<own> 7db6c6fe-9d79-4c5f-bac0-462b0fc3fdad
+    - !<own> 0419d065-0501-4f02-ac12-8a7b04c4484d
+  Components:
+    []

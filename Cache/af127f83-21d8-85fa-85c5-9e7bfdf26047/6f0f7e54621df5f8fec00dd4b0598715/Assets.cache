@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    23564b86-b9de-42c5-b3d4-beb00ea8d663: af127f83-21d8-85fa-85c5-9e7bfdf26047/6f0f7e54621df5f8fec00dd4b0598715/Data/CollapsedSquircle.mesh
+  Assets:
+    - !<FileMesh/23564b86-b9de-42c5-b3d4-beb00ea8d663>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 58
+        Vertices: 56
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.002000, y: 2.002000, z: 0.000000}
+  SourceHash: 6f0f7e54621df5f8fec00dd4b0598715
+  FileHash: ba7192895a259fa6007dc8638ca599af
+  NativePackageItems:
+    []

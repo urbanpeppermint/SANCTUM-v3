@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": [
+      "es2021"
+    ],
+    "module": "commonjs",
+    "noEmit": true,
+    "paths": {
+      "*": [
+        "./Assets/*",
+        "./Packages/*",
+        "./Cache/TypeScript/Src/Packages/*"
+      ],
+      "SCRIPTS/Behavior 2.lsc/*": [
+        "./Assets/SCRIPTS/Behavior 2.lsc/*",
+        "./Cache/TypeScript/Src/Assets/SCRIPTS/Behavior 2.lsc/*"
+      ],
+      "SCRIPTS/Behavior 4.lsc/*": [
+        "./Assets/SCRIPTS/Behavior 4.lsc/*",
+        "./Cache/TypeScript/Src/Assets/SCRIPTS/Behavior 4.lsc/*"
+      ],
+      "SanctumScene.lspkg/Radial Blur.lspkg/*": [
+        "./Assets/SanctumScene.lspkg/Radial Blur.lspkg/*",
+        "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/Radial Blur.lspkg/*"
+      ],
+      "SanctumScene.lspkg/SCRIPTS/Behavior 2.lsc/*": [
+        "./Assets/SanctumScene.lspkg/SCRIPTS/Behavior 2.lsc/*",
+        "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/SCRIPTS/Behavior 2.lsc/*"
+      ],
+      "SanctumScene.lspkg/SCRIPTS/Behavior 4.lsc/*": [
+        "./Assets/SanctumScene.lspkg/SCRIPTS/Behavior 4.lsc/*",
+        "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/SCRIPTS/Behavior 4.lsc/*"
+      ]
+    },
+    "skipDefaultLibCheck": true,
+    "target": "es2021",
+    "types": []
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "./Cache/TypeScript/lib/LensifyTS/Declarations/**/*.d.ts",
+    "./Assets/**/*.ts",
+    "./Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Packages/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/SCRIPTS/Behavior 2.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/SCRIPTS/Behavior 4.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/SCRIPTS/Behavior 2.lsc/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/SanctumScene.lspkg/Radial Blur.lspkg/**/*.ts",
+    "./Cache/TypeScript/Src/Assets/SCRIPTS/Behavior 4.lsc/**/*.ts"
+  ]
+}

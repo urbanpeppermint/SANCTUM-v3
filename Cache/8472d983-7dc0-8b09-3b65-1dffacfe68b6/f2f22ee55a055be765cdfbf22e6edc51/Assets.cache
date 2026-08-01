@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    82de4026-39d2-4a61-832f-57e1f89dba45: 8472d983-7dc0-8b09-3b65-1dffacfe68b6/f2f22ee55a055be765cdfbf22e6edc51/Data/Soap Bubble.graphShader
+  Assets:
+    - !<BinAsset/82de4026-39d2-4a61-832f-57e1f89dba45>
+      PackagePath: ""
+  SourceHash: f2f22ee55a055be765cdfbf22e6edc51
+  FileHash: 8e00a354e56e305899f7cc3c39c65a32
+  NativePackageItems:
+    []

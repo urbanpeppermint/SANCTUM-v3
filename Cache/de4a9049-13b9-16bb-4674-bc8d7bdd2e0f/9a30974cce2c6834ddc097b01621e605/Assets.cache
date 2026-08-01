@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    0253ddbd-3713-4381-8629-3fc84de14451: de4a9049-13b9-16bb-4674-bc8d7bdd2e0f/9a30974cce2c6834ddc097b01621e605/Data/NoDraw.graphShader
+  Assets:
+    - !<BinAsset/0253ddbd-3713-4381-8629-3fc84de14451>
+      PackagePath: ""
+  SourceHash: 9a30974cce2c6834ddc097b01621e605
+  FileHash: 83b6584ca3c28609c2d79c50b5cc2196
+  NativePackageItems:
+    []

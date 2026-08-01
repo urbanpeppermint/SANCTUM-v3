@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8ee600b9-4d85-46e5-9cce-f8a829fbbaf2: d0bcb462-d8c9-e926-79b5-0af0972eaa07/7a4b2cbc69333ca2ae9c5550379d14dd/Data/DefaultSphereSimpleShader.graphShader
+  Assets:
+    - !<BinAsset/8ee600b9-4d85-46e5-9cce-f8a829fbbaf2>
+      PackagePath: ""
+  SourceHash: 7a4b2cbc69333ca2ae9c5550379d14dd
+  FileHash: c309c91787407809d9ed9fe4f02b63f6
+  NativePackageItems:
+    []

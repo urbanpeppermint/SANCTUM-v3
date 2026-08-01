@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a6b2a5e1-2185-447e-ab45-1053a352f5aa: 8b654f2c-b017-14a0-0a2d-4bbef75a9b94/2c425cff278df8d1bf767467b51063cd/Data/InteractorLineMat.graphShader
+  Assets:
+    - !<BinAsset/a6b2a5e1-2185-447e-ab45-1053a352f5aa>
+      PackagePath: ""
+  SourceHash: 2c425cff278df8d1bf767467b51063cd
+  FileHash: 642f22d10682b5890f9669f363c858be
+  NativePackageItems:
+    []

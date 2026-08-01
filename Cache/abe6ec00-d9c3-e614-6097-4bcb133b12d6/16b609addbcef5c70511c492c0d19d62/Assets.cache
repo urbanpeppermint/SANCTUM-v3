@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    3cd7df7a-3606-41dc-909e-b3ec48f9870e: abe6ec00-d9c3-e614-6097-4bcb133b12d6/16b609addbcef5c70511c492c0d19d62/Data/CollapsedSquircleFragment.customCode
+  Assets:
+    - !<BinAsset/3cd7df7a-3606-41dc-909e-b3ec48f9870e>
+      PackagePath: ""
+  SourceHash: 16b609addbcef5c70511c492c0d19d62
+  FileHash: 301babc16f93875dfe2ee08c0b1af5e1
+  NativePackageItems:
+    []

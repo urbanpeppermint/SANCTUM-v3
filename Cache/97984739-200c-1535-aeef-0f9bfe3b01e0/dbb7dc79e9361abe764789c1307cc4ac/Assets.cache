@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1f510b67-71f5-44af-862d-f926fac26aa7: 97984739-200c-1535-aeef-0f9bfe3b01e0/dbb7dc79e9361abe764789c1307cc4ac/Data/Swirl_flow_map.png
+  Assets:
+    - !<FileTexture/1f510b67-71f5-44af-862d-f926fac26aa7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 350
+        Height: 350
+  SourceHash: dbb7dc79e9361abe764789c1307cc4ac
+  FileHash: 9d3270987334746dbaeb05ba8ad2573c
+  NativePackageItems:
+    []

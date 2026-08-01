@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    cb18df64-c6cc-4bb3-8165-d94d421f9982: baced39d-b910-226e-9b91-b330d9a5ef48/29228385748b81a39f3023d4f764f341/Data/ManipCursor.customCode
+  Assets:
+    - !<BinAsset/cb18df64-c6cc-4bb3-8165-d94d421f9982>
+      PackagePath: ""
+  SourceHash: 29228385748b81a39f3023d4f764f341
+  FileHash: 85e6e09c8aa05b363627a21b5cdbaf7d
+  NativePackageItems:
+    []

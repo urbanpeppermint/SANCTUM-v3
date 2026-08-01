@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    934a834b-362e-464e-872c-49704ec925ef: 55c52e58-d5ef-bbf8-a669-492b2735783a/bdd7a13db93dac05d21d435ff4a793c8/Data/StencilMask.graphShader
+  Assets:
+    - !<BinAsset/934a834b-362e-464e-872c-49704ec925ef>
+      PackagePath: ""
+  SourceHash: bdd7a13db93dac05d21d435ff4a793c8
+  FileHash: d45611c04061d4c01f31a4a823e1602e
+  NativePackageItems:
+    []

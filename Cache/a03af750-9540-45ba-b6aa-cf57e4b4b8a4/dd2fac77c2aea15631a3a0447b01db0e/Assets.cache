@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    4c6cbd6a-115c-4b18-a869-f8809ceb31d9: a03af750-9540-45ba-b6aa-cf57e4b4b8a4/dd2fac77c2aea15631a3a0447b01db0e/Data/Image Unlit.graphShader
+  Assets:
+    - !<BinAsset/4c6cbd6a-115c-4b18-a869-f8809ceb31d9>
+      PackagePath: ""
+  SourceHash: dd2fac77c2aea15631a3a0447b01db0e
+  FileHash: 0f0f4004844013de48fe89e8bec46d8d
+  NativePackageItems:
+    []

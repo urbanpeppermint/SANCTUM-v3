@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    58233fb7-35d2-4dda-9879-c4e89f33d82a: e0c98c89-0b68-8309-7c6c-5fc649e095eb/f21ccef3954952db5bfc1a11f42fa07f/Data/ScrollWindowFadeMaskShader.graphShader
+  Assets:
+    - !<BinAsset/58233fb7-35d2-4dda-9879-c4e89f33d82a>
+      PackagePath: ""
+  SourceHash: f21ccef3954952db5bfc1a11f42fa07f
+  FileHash: 79a6cff21908ee9505afd5371ae3efbd
+  NativePackageItems:
+    []

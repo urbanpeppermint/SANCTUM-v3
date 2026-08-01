@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a4c68f91-4fab-4744-af80-6d6abbee5d42: 2f90ac46-b2e3-87d2-2372-a021f72ef0aa/a7f7c10318ef4758b67d36693278292e/Data/FingerHighlightAdd.graphShader
+  Assets:
+    - !<BinAsset/a4c68f91-4fab-4744-af80-6d6abbee5d42>
+      PackagePath: ""
+  SourceHash: a7f7c10318ef4758b67d36693278292e
+  FileHash: 2b8d3b8f26704458d6e418908ae0576e
+  NativePackageItems:
+    []

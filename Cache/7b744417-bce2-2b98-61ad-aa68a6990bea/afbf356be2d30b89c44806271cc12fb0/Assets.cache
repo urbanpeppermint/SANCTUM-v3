@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    acdaed6b-05d7-4b64-8676-a81a51f28554: 7b744417-bce2-2b98-61ad-aa68a6990bea/afbf356be2d30b89c44806271cc12fb0/Data/bokeh.png
+  Assets:
+    - !<FileTexture/acdaed6b-05d7-4b64-8676-a81a51f28554>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: afbf356be2d30b89c44806271cc12fb0
+  FileHash: 50181afd2392befe5e1b3f097bc586f9
+  NativePackageItems:
+    []

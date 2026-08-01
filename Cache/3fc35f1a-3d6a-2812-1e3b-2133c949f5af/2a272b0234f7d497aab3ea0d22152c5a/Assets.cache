@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    9a6d6817-577f-4a1b-9668-9805d22e4c28: 3fc35f1a-3d6a-2812-1e3b-2133c949f5af/2a272b0234f7d497aab3ea0d22152c5a/Data/FingerHighlightOpaque.graphShader
+  Assets:
+    - !<BinAsset/9a6d6817-577f-4a1b-9668-9805d22e4c28>
+      PackagePath: ""
+  SourceHash: 2a272b0234f7d497aab3ea0d22152c5a
+  FileHash: d4c907e418d70bef46cf0a76d97c180b
+  NativePackageItems:
+    []

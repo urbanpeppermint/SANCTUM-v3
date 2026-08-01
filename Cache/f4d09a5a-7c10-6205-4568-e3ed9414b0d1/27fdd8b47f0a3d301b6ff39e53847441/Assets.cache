@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a0c0f538-31ba-4ddc-8598-35fbab1ecd22: f4d09a5a-7c10-6205-4568-e3ed9414b0d1/27fdd8b47f0a3d301b6ff39e53847441/Data/check_snapos3_gray_shadow.png
+  Assets:
+    - !<FileTexture/a0c0f538-31ba-4ddc-8598-35fbab1ecd22>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 48
+        Height: 48
+  SourceHash: 27fdd8b47f0a3d301b6ff39e53847441
+  FileHash: e9630a6a2699cdeb5edffdb4cbffc2c5
+  NativePackageItems:
+    []

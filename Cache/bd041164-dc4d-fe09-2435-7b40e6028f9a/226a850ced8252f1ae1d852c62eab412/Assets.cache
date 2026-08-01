@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    0086e73d-670c-4577-ab5c-210a515eb50f: "bd041164-dc4d-fe09-2435-7b40e6028f9a/226a850ced8252f1ae1d852c62eab412/Data/Echo Effect {Edit Echo Visual}.graphShader"
+  Assets:
+    - !<BinAsset/0086e73d-670c-4577-ab5c-210a515eb50f>
+      PackagePath: ""
+  SourceHash: 226a850ced8252f1ae1d852c62eab412
+  FileHash: bb2a355be4bf60e269a1416c4f306ea0
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    e441b66f-728d-469e-b993-aeb6f414a16e: 16dbadfb-b324-212a-86f6-5962de3b5cb8/7ef9cb00fe344e91ebf1df032e8eb446/Data/ConfirmationSliderShine.customCode
+  Assets:
+    - !<BinAsset/e441b66f-728d-469e-b993-aeb6f414a16e>
+      PackagePath: ""
+  SourceHash: 7ef9cb00fe344e91ebf1df032e8eb446
+  FileHash: 53009f5dd989d36fe9c978ae6f48056b
+  NativePackageItems:
+    []

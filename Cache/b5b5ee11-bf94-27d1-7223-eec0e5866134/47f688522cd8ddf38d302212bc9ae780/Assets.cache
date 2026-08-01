@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ab8e64e1-4395-4b3b-8e81-8209773ff220: b5b5ee11-bf94-27d1-7223-eec0e5866134/47f688522cd8ddf38d302212bc9ae780/Data/stop.png
+  Assets:
+    - !<FileTexture/ab8e64e1-4395-4b3b-8e81-8209773ff220>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 34
+        Height: 34
+  SourceHash: 47f688522cd8ddf38d302212bc9ae780
+  FileHash: 94c64bf072bd6b662291ffef905d32ea
+  NativePackageItems:
+    []

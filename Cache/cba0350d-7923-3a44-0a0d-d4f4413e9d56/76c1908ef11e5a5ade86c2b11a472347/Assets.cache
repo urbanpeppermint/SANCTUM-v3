@@ -1,0 +1,127 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 76c1908ef11e5a5ade86c2b11a472347
+  FileHash: 1e22b08ad1aae5b2c0e2a97026f64a4f
+  NativePackageItems:
+    - !<own> cb0da77c-6e14-542e-fcd4-8235579d8aef
+    - !<own> 9866e7d8-f558-c169-6fee-33a93f0be2e2
+    - !<own> 679a06df-877d-a2e4-ae33-7e3dc7f46dae
+    - !<own> bd033f2f-7645-3547-17e2-9f56e8a0a7da
+    - !<own> 23fe7bb8-8327-838c-c6ef-21eaf9bf4051
+- !<SceneObject/0352e51f-5bcd-455f-7769-af661fa437c2>
+  PrefabRemaps:
+    []
+  Name: RadialBlur__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f7c167a5-e4ed-418b-5ac8-ba4b4ae7aa94
+- !<AssetImportMetadata/23fe7bb8-8327-838c-c6ef-21eaf9bf4051>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 792aadb1-0a72-42d3-a299-719d913594ee
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 792aadb1-0a72-42d3-a299-719d913594ee
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/679a06df-877d-a2e4-ae33-7e3dc7f46dae>
+  ImportedAssetIds:
+    Texture: !<reference> 565e9521-804b-41e8-b9fc-808760b9338d
+  ImporterName: ScreenTextureImporter
+  PrimaryAsset: !<reference> 565e9521-804b-41e8-b9fc-808760b9338d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/82b931e2-caba-4948-8358-afc04aaf0567>
+  Prototype: !<ObjectOwner/77dd3fde-d4b6-4198-b2d4-6e48ede76ef7>
+    PackagePath: ""
+    objects:
+      - !<own> 0352e51f-5bcd-455f-7769-af661fa437c2
+- !<AssetImportMetadata/9866e7d8-f558-c169-6fee-33a93f0be2e2>
+  ImportedAssetIds:
+    Material: !<reference> fb31921e-bd57-44e2-8ff2-d16da45e91c7
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> fb31921e-bd57-44e2-8ff2-d16da45e91c7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/bd033f2f-7645-3547-17e2-9f56e8a0a7da>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 43602ce7-a763-4bd2-a3d4-55a67e9ae22e
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 43602ce7-a763-4bd2-a3d4-55a67e9ae22e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/cb0da77c-6e14-542e-fcd4-8235579d8aef>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 9ccad91c-a434-4377-9992-18853e6c2969
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 9ccad91c-a434-4377-9992-18853e6c2969
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 82b931e2-caba-4948-8358-afc04aaf0567
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<PostEffectVisual/f7c167a5-e4ed-418b-5ac8-ba4b4ae7aa94>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fb31921e-bd57-44e2-8ff2-d16da45e91c7

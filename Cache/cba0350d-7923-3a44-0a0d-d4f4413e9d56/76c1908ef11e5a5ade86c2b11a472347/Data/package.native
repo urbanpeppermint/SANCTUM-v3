@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/792aadb1-0a72-42d3-a299-719d913594ee>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: The Radial Blur Post Effect is used to create a rotational blur the screen's center point. It emulates rotating the camera while taking a photo. Select the direction, set the blur factor and angle, which define how much the input image is softened using the radial blur technique. It is possible to add an opacity mask to the shader. radial • rotational • spin • blur • rotate • image • processing • distort • filter
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: c2bbe4c2-6b6d-4ea5-8f2d-477b52938588
+  ComponentUid: 71ba9f24-7c2b-42e6-831a-043bf6b25d6e
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  PackagePolicy: CanBeUnpackedTransparent
+  coreVersion: 330
+  clientVersion: 13.6000004

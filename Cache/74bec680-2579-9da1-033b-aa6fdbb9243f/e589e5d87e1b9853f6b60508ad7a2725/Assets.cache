@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    0bb45548-69a3-48f0-b070-c677f5a1cc64: 74bec680-2579-9da1-033b-aa6fdbb9243f/e589e5d87e1b9853f6b60508ad7a2725/Data/unlit.graphShader
+  Assets:
+    - !<BinAsset/0bb45548-69a3-48f0-b070-c677f5a1cc64>
+      PackagePath: ""
+  SourceHash: e589e5d87e1b9853f6b60508ad7a2725
+  FileHash: 0bc94e8943593c25977959dbae1eee0b
+  NativePackageItems:
+    []

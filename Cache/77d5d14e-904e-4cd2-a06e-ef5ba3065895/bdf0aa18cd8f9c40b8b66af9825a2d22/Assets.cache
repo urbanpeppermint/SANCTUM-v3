@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a1537b9e-0eb6-4d2e-b6c1-880170ff1d71: 77d5d14e-904e-4cd2-a06e-ef5ba3065895/bdf0aa18cd8f9c40b8b66af9825a2d22/Data/Venetian Blinds.graphShader
+  Assets:
+    - !<BinAsset/a1537b9e-0eb6-4d2e-b6c1-880170ff1d71>
+      PackagePath: ""
+  SourceHash: bdf0aa18cd8f9c40b8b66af9825a2d22
+  FileHash: 68724977fe59922ae586a3453ac0f8e3
+  NativePackageItems:
+    []

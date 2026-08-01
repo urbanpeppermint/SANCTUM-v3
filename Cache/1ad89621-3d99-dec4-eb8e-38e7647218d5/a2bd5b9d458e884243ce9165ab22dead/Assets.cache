@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f9a8d592-9974-40e6-9305-6e3c998cb4a1: 1ad89621-3d99-dec4-eb8e-38e7647218d5/a2bd5b9d458e884243ce9165ab22dead/Data/notification2.mp3
+  Assets:
+    - !<FileAudioTrack/f9a8d592-9974-40e6-9305-6e3c998cb4a1>
+      PackagePath: ""
+  SourceHash: a2bd5b9d458e884243ce9165ab22dead
+  FileHash: ab318ff7558b7b4bc149a5a17a09b8e2
+  NativePackageItems:
+    []

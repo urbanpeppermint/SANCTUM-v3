@@ -1,0 +1,93 @@
+- !<AssetImportMetadata/c3e7c19c-663c-2624-781f-9558ddd0f2f7>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 90d24165-9af2-44ab-a8a7-ed642c1addcd
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 90d24165-9af2-44ab-a8a7-ed642c1addcd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3oVzS1DdaOJu08AygGaWxs
+  AssetDataMap:
+    VFXGraph: !<own> 4424dbd1-4096-4cb1-b1f1-a4f466c4c523
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/4424dbd1-4096-4cb1-b1f1-a4f466c4c523>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/f2738939-3305-45a7-abbc-fd35af8b9abc>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        sUV:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Tweak_N18:
+          typeIdx: 3
+          value: {x: 15.000000, y: 20.000000}
+        Tweak_N114:
+          typeIdx: 0
+          value: 25
+        Tweak_N34:
+          typeIdx: 3
+          value: {x: 40.000000, y: 50.000000}
+      RenderProperties:
+        baseTex:
+          typeIdx: 9
+          value:
+            id: 126a4284-f5d8-4aa2-aeac-64a1113522a7
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N114:
+          typeIdx: 0
+          value: 25
+        Tweak_N8:
+          typeIdx: 9
+          value:
+            id: b16e1c00-2fed-4c71-b37e-49bb9c32968c
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: ClampToBorderColor
+              wrapModeV: ClampToBorderColor
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N104:
+          typeIdx: 9
+          value:
+            id: 1f510b67-71f5-44af-862d-f926fac26aa7
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        Tweak_N10:
+          typeIdx: 9
+          value:
+            id: 9b93b8d7-0b47-44ec-91ab-d8d2a2d00dbd
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: Repeat
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

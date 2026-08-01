@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4e512e7e-f7b1-42c4-96b3-fe55a159be47: 89d78103-c09e-70b6-1257-be54f73bc5b4/21d5b8913f85fbb70db0dc0f2521e7d6/Data/check_snapos3_purple.png
+  Assets:
+    - !<FileTexture/4e512e7e-f7b1-42c4-96b3-fe55a159be47>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 48
+        Height: 48
+  SourceHash: 21d5b8913f85fbb70db0dc0f2521e7d6
+  FileHash: 840f5790b87c7a5edb5c6c9563f14d43
+  NativePackageItems:
+    []

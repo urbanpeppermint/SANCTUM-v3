@@ -1,0 +1,286 @@
+- !<AssetCache>
+  AssetFiles:
+    43602ce7-a763-4bd2-a3d4-55a67e9ae22e: "bd033f2f-7645-3547-17e2-9f56e8a0a7da/9e6fcd307deb8d99efa33a4f2879b54d/Data/Radial Blur [EDIT_ME].ss_graph"
+  Assets:
+    - !<ShaderGraphPass/43602ce7-a763-4bd2-a3d4-55a67e9ae22e>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_14_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Default_N002:
+          typeIdx: 1
+          value: 1.000000
+        Port_Default_N013:
+          typeIdx: 1
+          value: 60.000000
+        Port_Default_N015:
+          typeIdx: 1
+          value: 0.000000
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_LODValue_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value0_N015:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value1_N015:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value2_N015:
+          typeIdx: 1
+          value: 2.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: screenTexture
+            mWidget: texture_group
+            mHint: "Property: screenTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Direction
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Clockwise
+                mType: DefineSelectValue
+                mName: dropdown 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Counter-Clockwise
+                mType: DefineSelectValue
+                mName: dropdown 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mirror
+                mType: DefineSelectValue
+                mName: dropdown 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Blur Factor
+            mType: Property
+            mName: factor
+            mWidget: slider
+            mHint: "Property: factor"
+            mMin: 0.000000
+            mMax: 5.000000
+            mStep: 0.010000
+            mDefaultVal: 4.000000
+            mValues:
+              []
+          - mLabel: Angle
+            mType: Property
+            mName: angle
+            mWidget: slider
+            mHint: "Property: angle"
+            mMin: 0.000000
+            mMax: 180.000000
+            mStep: 0.100000
+            mDefaultVal: 10.000000
+            mValues:
+              []
+          - mLabel: Opacity
+            mType: Define
+            mName: Tweak_N16
+            mWidget: group_start
+            mHint: "Define: Tweak_N16"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Blur Factor
+            mType: Property
+            mName: opacityblurFactor
+            mWidget: slider
+            mHint: "Property: opacityblurFactor"
+            mMin: 0.000000
+            mMax: 5.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N16
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Advanced
+            mType: Define
+            mName: Tweak_N10
+            mWidget: group_start
+            mHint: "Define: Tweak_N10"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Samples
+            mType: Property
+            mName: samples
+            mWidget: slider
+            mHint: |-
+              Property: samples
+              
+              Hihger sample numbers produce better results but may reduce performance.
+            mMin: 1.000000
+            mMax: 100.000000
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Crop to Fit
+            mType: Property
+            mName: fit
+            mWidget: checkbox
+            mHint: "Property: fit"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N10
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: "bd033f2f-7645-3547-17e2-9f56e8a0a7da/9e6fcd307deb8d99efa33a4f2879b54d/Data/b01d0f7/Radial Blur [EDIT_ME].glsl"
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 9e6fcd307deb8d99efa33a4f2879b54d
+  FileHash: a908456183347f01e2465690e2036f07
+  NativePackageItems:
+    []

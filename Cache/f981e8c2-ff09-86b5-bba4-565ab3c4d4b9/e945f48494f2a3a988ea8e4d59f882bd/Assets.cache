@@ -1,0 +1,278 @@
+- !<AssetCache>
+  AssetFiles:
+    7f73e21c-306b-4e97-8cea-fc9a21bc79d1: f981e8c2-ff09-86b5-bba4-565ab3c4d4b9/e945f48494f2a3a988ea8e4d59f882bd/Data/Soap Bubble.ss_graph
+  Assets:
+    - !<ShaderGraphPass/7f73e21c-306b-4e97-8cea-fc9a21bc79d1>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N017:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N024:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N058:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input2_N060:
+          typeIdx: 1
+          value: 0.200000
+        Port_LODValue_N065:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N063:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N076:
+          typeIdx: 1
+          value: 0.900000
+        Port_RangeMaxB_N063:
+          typeIdx: 1
+          value: 0.833500
+        Port_RangeMaxB_N076:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N063:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N076:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N063:
+          typeIdx: 1
+          value: 0.166500
+        Port_RangeMinB_N076:
+          typeIdx: 1
+          value: 0.150000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N057:
+          typeIdx: 3
+          value: {x: 3.000000, y: 3.000000}
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value3_N056:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N064:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N056:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N064:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity
+            mType: Property
+            mName: opacity
+            mWidget: slider
+            mHint: "Property: opacity"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: "Property: roughness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Soap
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: Intensity
+            mWidget: slider
+            mHint: "Property: Intensity"
+            mMin: 1.000000
+            mMax: 3.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Thin Film Weight
+            mType: Property
+            mName: thinFilmWeight
+            mWidget: slider
+            mHint: "Property: thinFilmWeight"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: exponent
+            mWidget: slider
+            mHint: "Property: exponent"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Iridescence Map
+            mType: Property
+            mName: iridescenceMap
+            mWidget: texture_group
+            mHint: "Property: iridescenceMap"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise Intensity
+            mType: Property
+            mName: noiseIntensity
+            mWidget: slider
+            mHint: "Property: noiseIntensity"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Scale
+            mType: Property
+            mName: noiseScale
+            mWidget: spinbox
+            mHint: "Property: noiseScale"
+            mMin: 0.010000
+            mMax: 20.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: f981e8c2-ff09-86b5-bba4-565ab3c4d4b9/e945f48494f2a3a988ea8e4d59f882bd/Data/b01d0f7/Soap Bubble.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e945f48494f2a3a988ea8e4d59f882bd
+  FileHash: 3713de9cadb6d41a7f31e0cbc7a27ab0
+  NativePackageItems:
+    []

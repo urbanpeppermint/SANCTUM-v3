@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1862b97a-72de-4cab-8e6a-4279e9fb6dd2: ed0e0847-26fd-db60-98bd-598a5b0bcdb7/f7068e3ab8de1ccb2050313030b13cb8/Data/Simple Diffuse.graphShader
+  Assets:
+    - !<BinAsset/1862b97a-72de-4cab-8e6a-4279e9fb6dd2>
+      PackagePath: ""
+  SourceHash: f7068e3ab8de1ccb2050313030b13cb8
+  FileHash: 6e814710733037eddff19e46175c983b
+  NativePackageItems:
+    []

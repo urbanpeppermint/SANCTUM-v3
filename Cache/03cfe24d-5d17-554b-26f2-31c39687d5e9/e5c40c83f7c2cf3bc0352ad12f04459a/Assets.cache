@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    478b4601-48c7-47d3-b7d0-0cac11264152: 03cfe24d-5d17-554b-26f2-31c39687d5e9/e5c40c83f7c2cf3bc0352ad12f04459a/Data/README.md
+  Assets:
+    - !<MarkdownAsset/478b4601-48c7-47d3-b7d0-0cac11264152>
+      PackagePath: ""
+  SourceHash: e5c40c83f7c2cf3bc0352ad12f04459a
+  FileHash: d43407afc62014973f6021d28c9e77ba
+  NativePackageItems:
+    []

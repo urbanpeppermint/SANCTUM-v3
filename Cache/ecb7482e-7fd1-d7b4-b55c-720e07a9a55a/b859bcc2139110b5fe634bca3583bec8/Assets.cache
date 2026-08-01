@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    0354e01d-6489-45f5-990b-3fd0c6571f03: ecb7482e-7fd1-d7b4-b55c-720e07a9a55a/b859bcc2139110b5fe634bca3583bec8/Data/Cursor.customCode
+  Assets:
+    - !<BinAsset/0354e01d-6489-45f5-990b-3fd0c6571f03>
+      PackagePath: ""
+  SourceHash: b859bcc2139110b5fe634bca3583bec8
+  FileHash: 2ce4419e038dfbe71cd30529c084b9d5
+  NativePackageItems:
+    []

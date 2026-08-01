@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    55cbfffa-1189-4916-81bd-bf7e75907398: "00398e8e-41da-3ff0-2a6a-73f561d26ca5/60193c962b5866297220b1fc980dbcab/Data/Heart Chakra Healing Music 639 Hz Solfeggio Frequency Harmonize Relationships Meditation Music [ ezmp3.cc ].mp3"
+  Assets:
+    - !<FileAudioTrack/55cbfffa-1189-4916-81bd-bf7e75907398>
+      PackagePath: ""
+  SourceHash: 60193c962b5866297220b1fc980dbcab
+  FileHash: 36026f0b963113ccc16661b9318358dd
+  NativePackageItems:
+    []

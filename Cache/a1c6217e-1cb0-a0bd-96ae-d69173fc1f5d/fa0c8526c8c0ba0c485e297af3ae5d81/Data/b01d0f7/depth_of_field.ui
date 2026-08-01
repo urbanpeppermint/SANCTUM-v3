@@ -1,0 +1,93 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "screenTex", 
+                	"label":       "Screen Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "depthImage", 
+                	"label":       "Depth Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "1",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "focusDistance",
+                	"label":       "Focus Distance",
+                	"widget":      "slider",
+                	"min":         30,
+                	"max":         2000,
+                	"step":        "1",
+                	"sortIndex":   "2",
+                	"hint":        "Units are in cm",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "aperture",
+                	"label":       "Aperture",
+                	"widget":      "slider",
+                	"min":         0.5,
+                	"max":         22,
+                	"step":        "0.01",
+                	"sortIndex":   "3",
+                	"hint":        "Lower values are more blurry",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "blurIntensity",
+                	"label":       "Blur Intensity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         10,
+                	"step":        "0.01",
+                	"sortIndex":   "4",
+                	"hint":        "Multiplier on blur effect",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "fallbacktexMult",
+                	"label":       "Fallback Tex Mult",
+                	"widget":      "spinbox",
+                	"step":        "1",
+                	"sortIndex":   "10",
+                	"hint":        "controls by script",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

@@ -1,0 +1,129 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 586eac885a7a4f1b9f08b927dbcb3bc0
+  FileHash: 8865e3922cfb05e37b741c5e838ef0ec
+  NativePackageItems:
+    - !<own> 7b744417-bce2-2b98-61ad-aa68a6990bea
+    - !<own> 20822066-5844-37ce-ebdf-c51c30e28b43
+    - !<own> 13fdaabd-7fe5-3b07-2a93-52fc79ffa17e
+    - !<own> 650ee1ff-ee24-dedc-be9e-8d11a1e053c4
+- !<AssetImportMetadata/13fdaabd-7fe5-3b07-2a93-52fc79ffa17e>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+  ImporterName: BinAssetImporter
+  PrimaryAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> d29aaa10-cfe9-40e5-8f43-2ac4d9f02d83
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/1fba73d3-1fd2-426e-98a1-51f31c1699f1>
+  Prototype: !<ObjectOwner/77578ec5-b1e7-4f8a-9354-a761f4a06032>
+    PackagePath: ""
+    objects:
+      - !<own> de55f798-9949-438d-5b01-aa0101b8e502
+- !<AssetImportMetadata/20822066-5844-37ce-ebdf-c51c30e28b43>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d4c7791b-45c9-4c1c-b2df-b87cc164f3e2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d4c7791b-45c9-4c1c-b2df-b87cc164f3e2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 1fba73d3-1fd2-426e-98a1-51f31c1699f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/650ee1ff-ee24-dedc-be9e-8d11a1e053c4>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 37280dff-23b1-4fd4-8dde-f97abc29a626
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 37280dff-23b1-4fd4-8dde-f97abc29a626
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7b744417-bce2-2b98-61ad-aa68a6990bea>
+  ImportedAssetIds:
+    Texture: !<reference> acdaed6b-05d7-4b64-8676-a81a51f28554
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> acdaed6b-05d7-4b64-8676-a81a51f28554
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<VFXComponent/91ae5a14-9ddd-4b05-5e36-fcf6b5cae9f5>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+- !<VFXAssetData/d29aaa10-cfe9-40e5-8f43-2ac4d9f02d83>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    0: !<VFXSystemPassProperties/4dbc4ee3-333f-4e02-a31b-d6b039d98084>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        {}
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<SceneObject/de55f798-9949-438d-5b01-aa0101b8e502>
+  PrefabRemaps:
+    []
+  Name: BokehVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 91ae5a14-9ddd-4b05-5e36-fcf6b5cae9f5

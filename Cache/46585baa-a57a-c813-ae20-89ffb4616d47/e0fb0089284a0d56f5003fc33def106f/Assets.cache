@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1645eee6-547d-4568-8a38-09a7442fa44f: 46585baa-a57a-c813-ae20-89ffb4616d47/e0fb0089284a0d56f5003fc33def106f/Data/NormalBasedTargetOutline.graphShader
+  Assets:
+    - !<BinAsset/1645eee6-547d-4568-8a38-09a7442fa44f>
+      PackagePath: ""
+  SourceHash: e0fb0089284a0d56f5003fc33def106f
+  FileHash: b5686bfde9a8c983273a3e707fc9e701
+  NativePackageItems:
+    []

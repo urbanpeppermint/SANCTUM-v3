@@ -1,0 +1,426 @@
+- !<AssetImportMetadata/07e481b9-08f1-403f-bd08-303bc5786d2f>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ea49b86e-40ea-42de-bc6a-2392e12e709d
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ea49b86e-40ea-42de-bc6a-2392e12e709d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> eb60880e-4215-421b-9d53-ce2698a1d9c7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/151fefbe-35e1-47fa-a18b-64eac49522bd>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Important Note
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 3
+  Font: !<reference> 17826303-e897-4af5-85f6-950c774c5a95
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: -0.040000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Text/2e099e0d-917d-4549-84cb-824ca3583d23>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    Make sure to delete the "Info Card 
+    [DELETE_ME]" object
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 17826303-e897-4af5-85f6-950c774c5a95
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.000000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/3fd4856d-4209-4854-b3a1-ab7ccf372691>
+  PrefabRemaps:
+    []
+  Name: "Info Card [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -17.948923, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 25.742777, y: 25.742777, z: 25.742777}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8dc730a2-7c1f-4e04-b2b0-a5b0fd86188e
+    - !<own> 675a4e60-c2e4-474f-bb6d-19b5c35ad478
+    - !<own> 419773f8-27e5-420f-9a59-d6649bd74748
+  Components:
+    - !<own> bca4d1cf-b467-4f69-9f46-b04f3ef64abf
+- !<SceneObject/419773f8-27e5-420f-9a59-d6649bd74748>
+  PrefabRemaps:
+    []
+  Name: Delete Description
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.304741, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e099e0d-917d-4549-84cb-824ca3583d23
+- !<SceneObject/675a4e60-c2e4-474f-bb6d-19b5c35ad478>
+  PrefabRemaps:
+    []
+  Name: Desctiption
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.399348, y: 0.146274, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bb56ef4b-cbe1-421a-a0a1-71dd4205f3d8
+- !<RenderMeshVisual/8b0f099a-5dcd-404f-bab4-644f2819d4de>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0d93966b-c1ce-42d9-8dbb-a5ac5895aee4
+  Mesh: !<reference> a946cc0d-abfa-4358-bc34-cca03a4add8d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8dc730a2-7c1f-4e04-b2b0-a5b0fd86188e>
+  PrefabRemaps:
+    []
+  Name: Title
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.249190, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 151fefbe-35e1-47fa-a18b-64eac49522bd
+- !<SceneObject/95388d9f-3772-4ddc-84f7-ceeb1abdc12a>
+  PrefabRemaps:
+    []
+  Name: Double_Sided_Glass__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 15.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9c8b7573-a391-4724-93d4-770243628e53
+    - !<own> 3fd4856d-4209-4854-b3a1-ab7ccf372691
+  Components:
+    - !<own> 8b0f099a-5dcd-404f-bab4-644f2819d4de
+- !<SceneObject/9c8b7573-a391-4724-93d4-770243628e53>
+  PrefabRemaps:
+    []
+  Name: Double Side Renderer
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -17.948923, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b85d53ab-862a-4b60-94ce-548239ab6ba7
+- !<ObjectPrefab/a84e609e-bc23-47d2-ad00-af1f5b79d941>
+  PackagePath: ""
+  objects:
+    - !<own> 95388d9f-3772-4ddc-84f7-ceeb1abdc12a
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/b85d53ab-862a-4b60-94ce-548239ab6ba7>
+  PrefabRemaps:
+    []
+  Name: DoubleSidedRenderer
+  Enabled: true
+  ScriptAsset: !<reference> 596006c2-112b-410b-9a48-8a4bc24c02f3
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      glassMaterial: !<reference.Material> 0d93966b-c1ce-42d9-8dbb-a5ac5895aee4
+      glassMesh: !<reference.RenderMeshVisual> 8b0f099a-5dcd-404f-bab4-644f2819d4de
+  ScriptTypes:
+    "":
+      {}
+- !<Text/bb56ef4b-cbe1-421a-a0a1-71dd4205f3d8>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    This double faced glass maerial will only work
+    when using it with the script.
+    The "Assign front and back cull mode" script
+    assigns 2 same "Graph Glass" materials with one
+    set to front cull mode the other one set to back.
+    If you prefer not to use the script, you can manually 
+    assign 2 materials under the Render Mesh Visual, 
+    be sure to keep all parameters the same besides
+     the cull mode. 
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 1584a7e1-edc8-4936-9e4f-a0852b296b70
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.497627, y: 0.497612, z: 0.497627, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Image/bca4d1cf-b467-4f69-9f46-b04f3ef64abf>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 81106974-1b73-4397-b190-92d296603347
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/eb60880e-4215-421b-9d53-ce2698a1d9c7>
+  SourceRemaps:
+    - 04fc2bbc-cd59-4dad-9a0a-376fcd3d50fe: 675a4e60-c2e4-474f-bb6d-19b5c35ad478
+    - 05698c59-ae1c-4c40-977b-889fe9f51a89: 9c8b7573-a391-4724-93d4-770243628e53
+    - 16e453ed-0e86-4c37-92bb-5765cf3ef9ba: bb56ef4b-cbe1-421a-a0a1-71dd4205f3d8
+    - 2ac218a7-9d63-411c-a204-16bc92124fbf: b85d53ab-862a-4b60-94ce-548239ab6ba7
+    - 2faa5def-604b-40c4-ac25-458233d58b4f: bca4d1cf-b467-4f69-9f46-b04f3ef64abf
+    - 420b6efd-bffe-4a68-9ebd-855092ef8877: 95388d9f-3772-4ddc-84f7-ceeb1abdc12a
+    - 5cbac0e0-b9ac-4b44-bcd7-5baa9945c33e: 8b0f099a-5dcd-404f-bab4-644f2819d4de
+    - 6e91b5f6-9c61-43a5-bcdc-e9b7f07bc4b5: 419773f8-27e5-420f-9a59-d6649bd74748
+    - 721fef06-dd8a-478a-acca-a6af3e4824b5: 8dc730a2-7c1f-4e04-b2b0-a5b0fd86188e
+    - 8dd1c27a-e344-4880-ac81-504f8a2d38f0: 3fd4856d-4209-4854-b3a1-ab7ccf372691
+    - ab04ce62-d4e1-478b-8a5b-9150ad2a2cfa: 2e099e0d-917d-4549-84cb-824ca3583d23
+    - b55d9d65-68bb-4e82-abbc-656a5c47eb18: 151fefbe-35e1-47fa-a18b-64eac49522bd
+    - ea49b86e-40ea-42de-bc6a-2392e12e709d: a84e609e-bc23-47d2-ad00-af1f5b79d941
+  SourceState: !<own> a84e609e-bc23-47d2-ad00-af1f5b79d941

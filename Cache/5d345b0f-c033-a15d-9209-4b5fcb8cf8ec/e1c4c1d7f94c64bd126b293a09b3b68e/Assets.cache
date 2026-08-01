@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    273586e3-6bc8-4df4-88bd-a0cc2bc07d04: "5d345b0f-c033-a15d-9209-4b5fcb8cf8ec/e1c4c1d7f94c64bd126b293a09b3b68e/Data/Gauss Blur {Edit Echo Blur}.graphShader"
+  Assets:
+    - !<BinAsset/273586e3-6bc8-4df4-88bd-a0cc2bc07d04>
+      PackagePath: ""
+  SourceHash: e1c4c1d7f94c64bd126b293a09b3b68e
+  FileHash: 54ec01cef7aa1e5dd1e46682048750eb
+  NativePackageItems:
+    []

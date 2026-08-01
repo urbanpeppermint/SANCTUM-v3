@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    96e71649-15d4-4c42-ac7b-c0f97d5e8064: c88ff3e8-241b-7977-fe3b-3c32a82eb344/e621e0e81595ead1290fecb999b42916/Data/Chevron-down.png
+  Assets:
+    - !<FileTexture/96e71649-15d4-4c42-ac7b-c0f97d5e8064>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: e621e0e81595ead1290fecb999b42916
+  FileHash: 07d37ef14ac01873591aaa0d22925aa7
+  NativePackageItems:
+    []

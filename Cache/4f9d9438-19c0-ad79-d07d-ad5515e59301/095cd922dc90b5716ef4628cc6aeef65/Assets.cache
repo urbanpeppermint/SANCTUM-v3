@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    33049123-a6ab-4936-8363-e24a7c24daa4: 4f9d9438-19c0-ad79-d07d-ad5515e59301/095cd922dc90b5716ef4628cc6aeef65/Data/SpritePreset1.graphShader
+  Assets:
+    - !<BinAsset/33049123-a6ab-4936-8363-e24a7c24daa4>
+      PackagePath: ""
+  SourceHash: 095cd922dc90b5716ef4628cc6aeef65
+  FileHash: 55e7023f7dd97d63c313b497fed5d2c3
+  NativePackageItems:
+    []

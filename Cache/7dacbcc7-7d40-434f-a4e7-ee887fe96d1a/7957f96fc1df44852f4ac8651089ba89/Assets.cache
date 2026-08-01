@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b68a2fd1-b03b-4865-b3c2-9552bdaa79ff: 7dacbcc7-7d40-434f-a4e7-ee887fe96d1a/7957f96fc1df44852f4ac8651089ba89/Data/963 Hz_ Crown & Root.mp3
+  Assets:
+    - !<FileAudioTrack/b68a2fd1-b03b-4865-b3c2-9552bdaa79ff>
+      PackagePath: ""
+  SourceHash: 7957f96fc1df44852f4ac8651089ba89
+  FileHash: 4f57df74c11eb5edd50f894ec4d438e2
+  NativePackageItems:
+    []

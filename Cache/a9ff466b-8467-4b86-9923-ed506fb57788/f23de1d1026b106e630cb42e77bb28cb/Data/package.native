@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/fc156e6a-8f4b-44a8-948c-8a7ad7b0f682>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Interactive Soap Bubbles The Interactive Soap Bubbles asset allows you to spawn VFX bubbles around the user. You can burst the bubbles by tapping on them, or they will burst on their own at the end of their lives.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: d71426ff-eb71-48f6-8931-078e115b96cd
+  ComponentUid: d09155da-46ce-44d8-a2ca-3de705f00522
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 330
+  clientVersion: 13.6000004

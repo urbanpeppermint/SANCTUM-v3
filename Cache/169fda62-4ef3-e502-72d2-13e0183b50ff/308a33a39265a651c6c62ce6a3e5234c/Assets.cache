@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    910bb4c4-69da-47a3-ab02-db1b3ea87695: 169fda62-4ef3-e502-72d2-13e0183b50ff/308a33a39265a651c6c62ce6a3e5234c/Data/depth_mask.jpg
+  Assets:
+    - !<FileTexture/910bb4c4-69da-47a3-ab02-db1b3ea87695>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 308a33a39265a651c6c62ce6a3e5234c
+  FileHash: 4f6c79e8e809b2c9d4a24d7084278d24
+  NativePackageItems:
+    []

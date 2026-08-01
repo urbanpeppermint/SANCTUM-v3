@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    9536e0ec-88c8-4f85-9442-dbe538c8fc2c: 13fdaabd-7fe5-3b07-2a93-52fc79ffa17e/3c13baa67f98c90192d3ac49c734f924/Data/bokeh_vfx.graphVfx
+  Assets:
+    - !<BinAsset/9536e0ec-88c8-4f85-9442-dbe538c8fc2c>
+      PackagePath: ""
+  SourceHash: 3c13baa67f98c90192d3ac49c734f924
+  FileHash: 0508d8b4f3c6adfc55bf10215e0a2d8d
+  NativePackageItems:
+    []

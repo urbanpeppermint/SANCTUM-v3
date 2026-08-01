@@ -1,0 +1,34 @@
+- !<ObjectPrefab/d4c7791b-45c9-4c1c-b2df-b87cc164f3e2>
+  PackagePath: ""
+  objects:
+    - !<own> de55f798-9949-438d-a4fe-55fefe471afd
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/91ae5a14-9ddd-4b05-a1c9-03094a35160a>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+- !<SceneObject/de55f798-9949-438d-a4fe-55fefe471afd>
+  PrefabRemaps:
+    []
+  Name: BokehVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 91ae5a14-9ddd-4b05-a1c9-03094a35160a

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    126a4284-f5d8-4aa2-aeac-64a1113522a7: e96f668a-0100-1c2e-245d-fb239954b116/bd77e51412ed044b56557bdee33019b2/Data/Splash_map.png
+  Assets:
+    - !<FileTexture/126a4284-f5d8-4aa2-aeac-64a1113522a7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1250
+        Height: 1250
+  SourceHash: bd77e51412ed044b56557bdee33019b2
+  FileHash: f4dc38b804b77032524fc3cea8e9ba21
+  NativePackageItems:
+    []

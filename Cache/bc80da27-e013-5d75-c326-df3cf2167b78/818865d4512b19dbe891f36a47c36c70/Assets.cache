@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    2d3b016a-cb65-4ad0-951e-26f960a21f42: bc80da27-e013-5d75-c326-df3cf2167b78/818865d4512b19dbe891f36a47c36c70/Data/ConfirmationSlider.graphShader
+  Assets:
+    - !<BinAsset/2d3b016a-cb65-4ad0-951e-26f960a21f42>
+      PackagePath: ""
+  SourceHash: 818865d4512b19dbe891f36a47c36c70
+  FileHash: a567399e816c79e063bdb5a73bc80328
+  NativePackageItems:
+    []

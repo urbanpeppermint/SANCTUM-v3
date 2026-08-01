@@ -1,0 +1,150 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: a8e800654ba4521e757411c71be01a25
+  FileHash: 698fb39bec8fe92e98587eb0a744be55
+  NativePackageItems:
+    - !<own> 6bc64a2f-9c68-6738-72d7-6187dad3628c
+    - !<own> ec2afb62-6c9c-9bd3-40c9-07a4da113e8c
+    - !<own> 0e8f97bc-7c44-e271-00f6-30417b10ec35
+    - !<own> a0c60489-0ef3-74e2-be67-3da4fb485e59
+- !<AssetImportMetadata/0e8f97bc-7c44-e271-00f6-30417b10ec35>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> d3d4c4ad-1a8e-4ad9-a24f-dd7ea5164039
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/5ddf35b7-c851-4f3b-710a-07ff2327a44a>
+  PrefabRemaps:
+    []
+  Name: BokehVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a1f06e85-3f7e-4df8-733e-a3544db940a9
+- !<AssetImportMetadata/6bc64a2f-9c68-6738-72d7-6187dad3628c>
+  ImportedAssetIds:
+    Texture: !<reference> 80de7a98-a63f-4feb-82a9-72e3576045e4
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 80de7a98-a63f-4feb-82a9-72e3576045e4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<AssetImportMetadata/a0c60489-0ef3-74e2-be67-3da4fb485e59>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> ea03879b-7860-4f78-8418-8e2860effe8c
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> ea03879b-7860-4f78-8418-8e2860effe8c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/a1f06e85-3f7e-4df8-733e-a3544db940a9>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 593af536-48ff-4c8d-8445-47d7f33b9fe1
+- !<VFXAssetData/d3d4c4ad-1a8e-4ad9-a24f-dd7ea5164039>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/8387c80c-963e-4e1c-ae47-116d0bb9f6fa>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        colorMin:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.475929, z: 0.471443, w: 1.000000}
+        colorMax:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      RenderProperties:
+        flipbookTex:
+          typeIdx: 9
+          value:
+            id: 80de7a98-a63f-4feb-82a9-72e3576045e4
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        fadeDistanceInvisible:
+          typeIdx: 1
+          value: 35.000000
+        fadedistanceVisible:
+          typeIdx: 1
+          value: 25.000000
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/ec2afb62-6c9c-9bd3-40c9-07a4da113e8c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c06cf45b-e6aa-42ea-a3fa-74bda51284e3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c06cf45b-e6aa-42ea-a3fa-74bda51284e3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> f99ed84a-14c9-444b-a0e5-23707d65a6e1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/f99ed84a-14c9-444b-a0e5-23707d65a6e1>
+  Prototype: !<ObjectOwner/4cd2bbea-00b7-43c5-81f4-fc50d4b93671>
+    PackagePath: ""
+    objects:
+      - !<own> 5ddf35b7-c851-4f3b-710a-07ff2327a44a

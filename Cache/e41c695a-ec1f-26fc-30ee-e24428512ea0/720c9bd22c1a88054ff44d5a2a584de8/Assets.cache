@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    6c9f5939-eaf7-4684-825a-e3724f0ca235: "e41c695a-ec1f-26fc-30ee-e24428512ea0/720c9bd22c1a88054ff44d5a2a584de8/Data/528 Hz ] SOLAR.mp3"
+  Assets:
+    - !<FileAudioTrack/6c9f5939-eaf7-4684-825a-e3724f0ca235>
+      PackagePath: ""
+  SourceHash: 720c9bd22c1a88054ff44d5a2a584de8
+  FileHash: a9d431b9fdc709ef74b05732aa7910f1
+  NativePackageItems:
+    []

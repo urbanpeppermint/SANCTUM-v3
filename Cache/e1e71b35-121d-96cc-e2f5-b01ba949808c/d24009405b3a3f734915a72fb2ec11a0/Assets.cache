@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    88ef390a-b87b-49c5-8fc2-f45fc035308c: e1e71b35-121d-96cc-e2f5-b01ba949808c/d24009405b3a3f734915a72fb2ec11a0/Data/ImageShader.graphShader
+  Assets:
+    - !<BinAsset/88ef390a-b87b-49c5-8fc2-f45fc035308c>
+      PackagePath: ""
+  SourceHash: d24009405b3a3f734915a72fb2ec11a0
+  FileHash: 364ea070329415d0c32d8709afd06b34
+  NativePackageItems:
+    []

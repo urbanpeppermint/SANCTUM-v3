@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    2bb5ddb5-ee12-4f6c-b003-b7912e8b5bdf: d987535f-64b0-9c4b-5e58-883fcbc1aa12/d7b93980a1fbdf6f0b6643e0ddbc1573/Data/FrameShader.graphShader
+  Assets:
+    - !<BinAsset/2bb5ddb5-ee12-4f6c-b003-b7912e8b5bdf>
+      PackagePath: ""
+  SourceHash: d7b93980a1fbdf6f0b6643e0ddbc1573
+  FileHash: 1df377e9f29475fb6d04a99755f159b2
+  NativePackageItems:
+    []

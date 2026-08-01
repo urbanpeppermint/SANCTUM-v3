@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    661d0e0a-87f5-4afc-91a3-e04de2c8a940: 2c4a0a78-c542-bbd6-d27a-dd2dd50e6b52/198ad80f34c7f1d46e86a83d4cb08f3a/Data/CollapsedSquircleVertex.customCode
+  Assets:
+    - !<BinAsset/661d0e0a-87f5-4afc-91a3-e04de2c8a940>
+      PackagePath: ""
+  SourceHash: 198ad80f34c7f1d46e86a83d4cb08f3a
+  FileHash: 452387a28d529234cc2e85bb0ded7355
+  NativePackageItems:
+    []

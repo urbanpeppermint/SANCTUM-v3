@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/3a483e03-e11b-4e31-8d73-0a06c530e638>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 1
+  VersionPatch: 4
+  UpdateCheckpoint: 76
+  ExportUid: 7a927beb-520f-4632-b77e-0a8784b47f1b
+  ComponentUid: 3531b844-8e67-4633-9afa-7f4233cbd9e2
+  ReadMe: !<reference> 07730423-c884-4512-8292-144b28fa14df
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: RemoteServiceGateway
+    AssetId: 6t4hhnuVFexlUIGORHNqEJ
+    Hash: fd1653a3544316be820b104e76da1a4f
+    Version:
+      major: 0
+      minor: 1
+      patch: 4
+      build: 0
+  PackagePolicy: CanBeUnpackedTransparent
+  coreVersion: 330
+  clientVersion: 13.6000004

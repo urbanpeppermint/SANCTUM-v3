@@ -1,0 +1,200 @@
+{
+    "dependencies": [
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "0e518969-db34-48cf-8633-ef9b1cdb9161",
+            "name": "AudioProcessor",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "1aPW5eMfMPeP1615dXiqyN",
+            "exportId": "191b4dd1-3492-45a3-8711-326be9be4dda",
+            "id": "0f7a0bbe-777c-41a5-b979-0b0430f25836",
+            "name": "SpectaclesInteractionKit",
+            "version": "0.13.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "117165b9-368f-494a-80c8-e6d8b3fc2e50",
+            "name": "RemoteServiceGatewayCredentials",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "3eba944d-7a5b-4940-8360-b2dbd62e30f6",
+            "name": "GeminiTypes",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "3f4190e1-5ec6-40d4-9ef0-37a1de5f337e",
+            "name": "ExampleOAICalls",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "5373de24-3d13-4422-a1f2-53470572ecaf",
+            "name": "Event",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "5f796c7b-fb41-46dd-936a-dbecaa336981",
+            "name": "DeepSeekTypes",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "71c808ea-554c-4b07-9e63-0cda9584c8c0",
+            "name": "ExampleOAIRealtime",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "7331e53e-11b6-4454-a113-d831b5bf4e3d",
+            "name": "ExampleGeminiCalls",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "80b84d91-4b92-439c-986f-7a1f29d4ed81",
+            "name": "Snap3DInteractableFactory",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "95fc6844-532b-459b-9635-d2e8af5ed566",
+            "name": "Snap3DInteractable",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "9dfe3bef-f95b-43cc-bb19-f79ea2f06835",
+            "name": "OpenAITypes",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "a6b66964-d619-40c5-99b3-b1247dcdede2",
+            "name": "ExampleDeepseekCalls",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "a9175e47-06b8-42fe-986f-849f68efbc73",
+            "name": "VideoController",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "ab48a63f-4cc3-42e4-8426-c5637832332a",
+            "name": "DynamicAudioOutput",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "ae5a734b-eb9f-475c-b905-31daafa324c6",
+            "name": "InteractableSnap3DGenerator",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "b8984e44-d335-425a-b560-8eb2b6035be2",
+            "name": "LoadingSpinner",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "bbc7d3e5-6da5-48a7-b15f-7dd410bd0b53",
+            "name": "Snap3DTypes",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "be25359e-b6d8-4951-8e6c-c92f4253b028",
+            "name": "ExampleGeminiLive",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "ca5573e6-dade-4f6b-891b-4bc6e481aae9",
+            "name": "Promisfy",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "01nh49tLS3W7scF2JNRBJe",
+            "exportId": "3b5eba1c-a4e8-4124-8c07-5f3222a5289a",
+            "id": "d0c06990-bb77-41d8-905a-5f74c66c942c",
+            "name": "LSTween",
+            "version": "1.0.1"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "d65dcb58-4986-4954-bead-c3337f49d1a3",
+            "name": "OpenAI",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "d728e197-df30-40fd-9914-2eec16ff838d",
+            "name": "EnhancedSnap3DInteriorDesign",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "d9278162-b7cf-4572-ae87-877f0c739c0e",
+            "name": "MicrophoneRecorder",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "da78b7fb-7c52-43fd-b584-5808ef6f6fce",
+            "name": "Gemini",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "e058c16c-b19d-4028-a8b9-9d3b882d69b7",
+            "name": "Deepseek",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "e705b658-9969-45c2-a9f1-fcb20021b0d7",
+            "name": "ASRQueryController",
+            "version": "0.0.0"
+        },
+        {
+            "assetId": "",
+            "exportId": "00000000-0000-0000-0000-000000000000",
+            "id": "fef21d49-956d-4c58-a2cd-740a51f75992",
+            "name": "Snap3D",
+            "version": "0.0.0"
+        }
+    ]
+}

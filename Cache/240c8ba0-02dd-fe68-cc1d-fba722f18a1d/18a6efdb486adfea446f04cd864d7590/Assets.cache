@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    53890b65-ca24-486d-9369-d4d05831bf32: 240c8ba0-02dd-fe68-cc1d-fba722f18a1d/18a6efdb486adfea446f04cd864d7590/Data/CursorMat.graphShader
+  Assets:
+    - !<BinAsset/53890b65-ca24-486d-9369-d4d05831bf32>
+      PackagePath: ""
+  SourceHash: 18a6efdb486adfea446f04cd864d7590
+  FileHash: f6d40f4344d8d0396df6ec89d3d571bf
+  NativePackageItems:
+    []

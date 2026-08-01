@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    ef3f6d46-81e4-4b47-8494-bbc315a8e21b: d4518070-1d5b-eb24-09f9-fe37ab2a2e30/56ae081ae339c8511a4b8017a9b8e629/Data/Vertex Distortion.graphShader
+  Assets:
+    - !<BinAsset/ef3f6d46-81e4-4b47-8494-bbc315a8e21b>
+      PackagePath: ""
+  SourceHash: 56ae081ae339c8511a4b8017a9b8e629
+  FileHash: c5cf7b5165256c08bfc62e2c5eb8572b
+  NativePackageItems:
+    []

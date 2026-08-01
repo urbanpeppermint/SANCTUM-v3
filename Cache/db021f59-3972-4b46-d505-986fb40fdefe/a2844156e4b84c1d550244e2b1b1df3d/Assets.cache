@@ -1,0 +1,217 @@
+- !<AssetCache>
+  AssetFiles:
+    4904d2c8-db24-4156-bfca-5923c50db51f: db021f59-3972-4b46-d505-986fb40fdefe/a2844156e4b84c1d550244e2b1b1df3d/Data/Vertex Distortion.ss_graph
+  Assets:
+    - !<ShaderGraphPass/4904d2c8-db24-4156-bfca-5923c50db51f>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N006:
+          typeIdx: 4
+          value: {x: 0.969329, y: 0.422751, z: 0.215106}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N037:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N046:
+          typeIdx: 1
+          value: 0.200000
+        Port_Import_N054:
+          typeIdx: 1
+          value: 20.000000
+        Port_Input1_N038:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N038:
+          typeIdx: 1
+          value: 1.000000
+        Port_Metallic_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N006:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Opacity_N006:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N006:
+          typeIdx: 1
+          value: 0.000000
+        Port_Scale_N017:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Distortion
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Animated
+            mType: Define
+            mName: animated
+            mWidget: checkbox
+            mHint: "Define: animated"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Animated Speed
+            mType: Property
+            mName: animatedSpeed
+            mWidget: slider
+            mHint: "Property: animatedSpeed"
+            mMin: 0.000000
+            mMax: 20.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: offset
+            mWidget: slider
+            mHint: "Property: offset"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: strength
+            mWidget: slider
+            mHint: "Property: strength"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.900000
+            mValues:
+              []
+          - mLabel: Noise Scale
+            mType: Property
+            mName: noiseScale
+            mWidget: slider
+            mHint: |-
+              Property: noiseScale
+              
+              The frequency of the noise. Smaller values create less frequency, which looks smoother. Larger values create more frequent noise, 
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: db021f59-3972-4b46-d505-986fb40fdefe/a2844156e4b84c1d550244e2b1b1df3d/Data/b01d0f7/Vertex Distortion.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: a2844156e4b84c1d550244e2b1b1df3d
+  FileHash: 69c5c8441e01e4027fa179767b2de7b6
+  NativePackageItems:
+    []

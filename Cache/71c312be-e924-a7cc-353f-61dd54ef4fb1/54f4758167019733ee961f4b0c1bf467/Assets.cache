@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b6d90089-7499-4a71-82ce-232b00a4d722: 71c312be-e924-a7cc-353f-61dd54ef4fb1/54f4758167019733ee961f4b0c1bf467/Data/check_snapos3.png
+  Assets:
+    - !<FileTexture/b6d90089-7499-4a71-82ce-232b00a4d722>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 54f4758167019733ee961f4b0c1bf467
+  FileHash: e518bc5248ea4a816684875e82ccb64f
+  NativePackageItems:
+    []

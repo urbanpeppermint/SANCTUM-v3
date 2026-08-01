@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    51f57783-89af-47fd-a9c7-0fb23628824b: 073bc8fe-74b9-b139-9c09-b434c4ec622c/68699751fc8606a4d0b3ac11899763a7/Data/Text3DDefault.graphShader
+  Assets:
+    - !<BinAsset/51f57783-89af-47fd-a9c7-0fb23628824b>
+      PackagePath: ""
+  SourceHash: 68699751fc8606a4d0b3ac11899763a7
+  FileHash: fddc3c486e4f928a4ac653b9f166d006
+  NativePackageItems:
+    []

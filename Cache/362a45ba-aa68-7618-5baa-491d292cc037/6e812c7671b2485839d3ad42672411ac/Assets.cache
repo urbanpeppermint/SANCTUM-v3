@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    2c25c169-e09e-4a03-bcbc-f96152341254: 362a45ba-aa68-7618-5baa-491d292cc037/6e812c7671b2485839d3ad42672411ac/Data/ManipCursorMat.graphShader
+  Assets:
+    - !<BinAsset/2c25c169-e09e-4a03-bcbc-f96152341254>
+      PackagePath: ""
+  SourceHash: 6e812c7671b2485839d3ad42672411ac
+  FileHash: 9e714cefed8ee86e8a0ebf2f8f561efc
+  NativePackageItems:
+    []

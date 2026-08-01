@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    448f24f0-d4a3-4853-9dab-086b7576ee90: 2cd2884e-a9a8-962a-9cd2-26a4a77c26e6/73f9a10ac6f7cc0a1a61b7694c04bd7d/Data/LoadingSpinner.graphShader
+  Assets:
+    - !<BinAsset/448f24f0-d4a3-4853-9dab-086b7576ee90>
+      PackagePath: ""
+  SourceHash: 73f9a10ac6f7cc0a1a61b7694c04bd7d
+  FileHash: 603ea4fda00d01ea2c17e75d5bc8c149
+  NativePackageItems:
+    []

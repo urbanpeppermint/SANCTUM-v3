@@ -1,0 +1,19 @@
+- !<AssetImportMetadata/356def9f-6fb6-2c72-1061-3d34e315ffaa>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 43802594-abfc-40c2-8793-0a72e16569c9
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 43802594-abfc-40c2-8793-0a72e16569c9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 6sMzmfXhazyRFlg40DMG8R
+  AssetDataMap:
+    ObjectPrefab: !<own> 0c2733dc-4933-4b2f-8dec-8bdba8a7ce94
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/0c2733dc-4933-4b2f-8dec-8bdba8a7ce94>
+
+  {}

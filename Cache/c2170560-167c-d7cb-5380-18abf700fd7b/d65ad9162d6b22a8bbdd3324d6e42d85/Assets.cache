@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    19967475-fce8-43d3-b3b1-df9fe134ea43: "c2170560-167c-d7cb-5380-18abf700fd7b/d65ad9162d6b22a8bbdd3324d6e42d85/Data/ui_loading [EDIT_ME].graphShader"
+  Assets:
+    - !<BinAsset/19967475-fce8-43d3-b3b1-df9fe134ea43>
+      PackagePath: ""
+  SourceHash: d65ad9162d6b22a8bbdd3324d6e42d85
+  FileHash: 07494ca1cae99fab29875ed86e39e4a0
+  NativePackageItems:
+    []

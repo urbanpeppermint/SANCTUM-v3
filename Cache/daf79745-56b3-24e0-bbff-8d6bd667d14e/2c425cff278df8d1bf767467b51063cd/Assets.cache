@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    66a70072-8105-4c4c-8401-90be5a370fff: daf79745-56b3-24e0-bbff-8d6bd667d14e/2c425cff278df8d1bf767467b51063cd/Data/ManipulateLineMat.graphShader
+  Assets:
+    - !<BinAsset/66a70072-8105-4c4c-8401-90be5a370fff>
+      PackagePath: ""
+  SourceHash: 2c425cff278df8d1bf767467b51063cd
+  FileHash: 642f22d10682b5890f9669f363c858be
+  NativePackageItems:
+    []

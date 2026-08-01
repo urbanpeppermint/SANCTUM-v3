@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    14f5a35a-0c1b-4308-abd7-2c54830bc0c5: 99cf3d0d-6cd0-c9e0-2901-af18ab554324/5c4b146cb06e33b90c53459a0dedbf98/Data/TweenBoxDiffuse.graphShader
+  Assets:
+    - !<BinAsset/14f5a35a-0c1b-4308-abd7-2c54830bc0c5>
+      PackagePath: ""
+  SourceHash: 5c4b146cb06e33b90c53459a0dedbf98
+  FileHash: d282e7c49f878b5c57a7dea0b9fc8b50
+  NativePackageItems:
+    []

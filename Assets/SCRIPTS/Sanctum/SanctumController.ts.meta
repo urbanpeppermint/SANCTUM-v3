@@ -1,0 +1,122 @@
+- !<AssetImportMetadata/d20eaed5-df35-4b50-b145-872f38e8be3f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> df0049c6-18e2-4a81-8586-22aa16dfcfe8
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> df0049c6-18e2-4a81-8586-22aa16dfcfe8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c92100e6-1ee7-437b-9995-8693d2a7814e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c92100e6-1ee7-437b-9995-8693d2a7814e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f9f6a850-2876-428e-b31b-1b13fdd68fb1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    acupressureButton: false
+    audioManagerObject: false
+    breathingButton: false
+    crownChakraButton: false
+    customManifestIntent: false
+    heartChakraButton: false
+    image: false
+    manifestationButton: false
+    rootChakraButton: false
+    sacralChakraButton: false
+    saveVisionButton: false
+    solarPlexusChakraButton: false
+    spinner: false
+    startPracticeOnTap: false
+    textDisplay: false
+    thirdEyeChakraButton: false
+    throatChakraButton: false
+    vaultButton: false
+    vaultNextButton: false
+    vaultPrevButton: false
+    voiceInstructions: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - textDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      voiceInstructions: "Wise zen master or therapist tone. Calm, grounding, deeply peaceful voice. Speak slowly with intentional pauses between phrases."
+      breathingButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      acupressureButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      manifestationButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      vaultButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      startPracticeOnTap: false
+      rootChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sacralChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      solarPlexusChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      heartChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      throatChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thirdEyeChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      crownChakraButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      customManifestIntent: ""
+      saveVisionButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      vaultNextButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      vaultPrevButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      audioManagerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Display"}'
+    - // @input Component.Text textDisplay
+    - // @input Component.Image image
+    - // @input SceneObject spinner
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Voice Settings"}'
+    - '// @input string voiceInstructions = "Wise zen master or therapist tone. Calm, grounding, deeply peaceful voice. Speak slowly with intentional pauses between phrases." {"widget":"text_area"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Practice Buttons"}'
+    - // @input SceneObject breathingButton
+    - // @input SceneObject acupressureButton
+    - // @input SceneObject manifestationButton
+    - // @input SceneObject vaultButton
+    - '// @input bool startPracticeOnTap {"label":"Run On Tap"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Chakra Buttons"}'
+    - // @input SceneObject rootChakraButton
+    - // @input SceneObject sacralChakraButton
+    - // @input SceneObject solarPlexusChakraButton
+    - // @input SceneObject heartChakraButton
+    - // @input SceneObject throatChakraButton
+    - // @input SceneObject thirdEyeChakraButton
+    - // @input SceneObject crownChakraButton
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Manifestation"}'
+    - '// @input string customManifestIntent {"label":"Custom Intent (optional)", "widget":"text_area"}'
+    - // @input SceneObject saveVisionButton
+    - // @input SceneObject vaultNextButton
+    - // @input SceneObject vaultPrevButton
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Chakra Audio"}'
+    - '// @input SceneObject audioManagerObject {"label":"AudioButtonManager host (BUTTONS)"}'
+    - '// @ui {"widget":"group_end"}'

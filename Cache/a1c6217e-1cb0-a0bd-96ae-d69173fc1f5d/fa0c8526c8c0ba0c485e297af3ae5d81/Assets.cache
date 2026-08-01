@@ -1,0 +1,233 @@
+- !<AssetCache>
+  AssetFiles:
+    ecf759e4-6053-4fd7-9714-5eae65487463: a1c6217e-1cb0-a0bd-96ae-d69173fc1f5d/fa0c8526c8c0ba0c485e297af3ae5d81/Data/depth_of_field.ss_graph
+  Assets:
+    - !<ShaderGraphPass/ecf759e4-6053-4fd7-9714-5eae65487463>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N043:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N045:
+          typeIdx: 1
+          value: 0.700000
+        Port_Input1_N052:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N032:
+          typeIdx: 1
+          value: -0.500000
+        Port_Input2_N033:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input2_N052:
+          typeIdx: 1
+          value: 7.000000
+        Port_Input2_N105:
+          typeIdx: 1
+          value: 0.840000
+        Port_Item0_N016:
+          typeIdx: 3
+          value: {x: 1.016200, y: 0.420900}
+        Port_Item1_N016:
+          typeIdx: 3
+          value: {x: 0.420900, y: 1.016200}
+        Port_Item2_N016:
+          typeIdx: 3
+          value: {x: -0.420900, y: 1.016200}
+        Port_Item3_N016:
+          typeIdx: 3
+          value: {x: -1.016200, y: 0.420900}
+        Port_Item4_N016:
+          typeIdx: 3
+          value: {x: -1.016200, y: -0.420900}
+        Port_Item5_N016:
+          typeIdx: 3
+          value: {x: -0.420900, y: -1.016200}
+        Port_Item6_N016:
+          typeIdx: 3
+          value: {x: 0.420900, y: -1.016200}
+        Port_Item7_N016:
+          typeIdx: 3
+          value: {x: 1.016200, y: -0.420900}
+        Port_LODValue_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxB_N035:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinB_N035:
+          typeIdx: 1
+          value: -1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value_N041:
+          typeIdx: 1
+          value: 20.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Screen Texture
+            mType: Property
+            mName: screenTex
+            mWidget: texture_group
+            mHint: "Property: screenTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Depth Texture
+            mType: Property
+            mName: depthImage
+            mWidget: texture_group
+            mHint: "Property: depthImage"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Focus Distance
+            mType: Property
+            mName: focusDistance
+            mWidget: slider
+            mHint: |-
+              Property: focusDistance
+              
+              Units are in cm
+            mMin: 30.000000
+            mMax: 2000.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Aperture
+            mType: Property
+            mName: aperture
+            mWidget: slider
+            mHint: |-
+              Property: aperture
+              
+              Lower values are more blurry
+            mMin: 0.500000
+            mMax: 22.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Blur Intensity
+            mType: Property
+            mName: blurIntensity
+            mWidget: slider
+            mHint: |-
+              Property: blurIntensity
+              
+              Multiplier on blur effect
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Fallback Tex Mult
+            mType: Property
+            mName: fallbacktexMult
+            mWidget: spinbox
+            mHint: |-
+              Property: fallbacktexMult
+              
+              controls by script
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: a1c6217e-1cb0-a0bd-96ae-d69173fc1f5d/fa0c8526c8c0ba0c485e297af3ae5d81/Data/b01d0f7/depth_of_field.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: fa0c8526c8c0ba0c485e297af3ae5d81
+  FileHash: 088d3e7af873c7b44918203d1c053511
+  NativePackageItems:
+    []

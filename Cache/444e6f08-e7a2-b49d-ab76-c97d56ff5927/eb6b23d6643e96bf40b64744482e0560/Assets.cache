@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1303d0e2-e588-488c-9af8-137bd2488f55: 444e6f08-e7a2-b49d-ab76-c97d56ff5927/eb6b23d6643e96bf40b64744482e0560/Data/_Throat Chakra_ @384Hz.mp3
+  Assets:
+    - !<FileAudioTrack/1303d0e2-e588-488c-9af8-137bd2488f55>
+      PackagePath: ""
+  SourceHash: eb6b23d6643e96bf40b64744482e0560
+  FileHash: e2cf97d85db8f0e5d7009a28a39007dd
+  NativePackageItems:
+    []

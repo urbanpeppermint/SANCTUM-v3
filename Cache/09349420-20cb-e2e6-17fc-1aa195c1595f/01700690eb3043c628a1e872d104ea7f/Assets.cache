@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b16e1c00-2fed-4c71-b37e-49bb9c32968c: 09349420-20cb-e2e6-17fc-1aa195c1595f/01700690eb3043c628a1e872d104ea7f/Data/Soap_bubble_color.png
+  Assets:
+    - !<FileTexture/b16e1c00-2fed-4c71-b37e-49bb9c32968c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 350
+        Height: 350
+  SourceHash: 01700690eb3043c628a1e872d104ea7f
+  FileHash: 9cc9b3ead9a2bdac35e4d779cfac0142
+  NativePackageItems:
+    []

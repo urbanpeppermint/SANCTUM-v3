@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    698098f7-8326-411a-ac9c-cf92aab71bc1: "de4b61b4-b180-870d-f579-c689fde56461/a0fcfe9f049fbb1ceed250da13bc44f9/Data/Third Eye, Pineal Gland Activation, Open Your Third Eye, Binaural Beats, Sleep Meditation, Healing [ ezmp3.cc ].mp3"
+  Assets:
+    - !<FileAudioTrack/698098f7-8326-411a-ac9c-cf92aab71bc1>
+      PackagePath: ""
+  SourceHash: a0fcfe9f049fbb1ceed250da13bc44f9
+  FileHash: c185bdaeb9e60f0dd8469a57df2794fd
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    6b028275-66ad-490d-9259-8e0c449e7f9a: 14104203-ffd8-11b8-110d-f449d2a2d1a1/d6929f82f848aa1ce6aba9d41fde7cd1/Data/flat.graphShader
+  Assets:
+    - !<BinAsset/6b028275-66ad-490d-9259-8e0c449e7f9a>
+      PackagePath: ""
+  SourceHash: d6929f82f848aa1ce6aba9d41fde7cd1
+  FileHash: 76a172078fdf39b6515f13c920c773dd
+  NativePackageItems:
+    []

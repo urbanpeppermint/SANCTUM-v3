@@ -1,0 +1,38 @@
+- !<NativePackageDescriptor/fd58d311-ae40-4638-9f08-2b3b78d28971>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 22
+    patch: 1
+    build: 26062503
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 101
+  ExportUid: 08421b24-708e-4793-96d7-b8ac05a95585
+  ComponentUid: c94e1afc-3ce3-4cc2-b686-277a886741cf
+  PackagePolicy: ShouldBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  VersionPrerelease: ""
+  Instantiable: !<reference> d1d7ef1c-8efc-4a92-b0dc-3f2f38509f0d
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

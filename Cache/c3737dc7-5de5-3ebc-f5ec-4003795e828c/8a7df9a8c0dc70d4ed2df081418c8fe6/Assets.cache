@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    59fd800a-0254-49eb-a8e4-78bc8846ffa2: c3737dc7-5de5-3ebc-f5ec-4003795e828c/8a7df9a8c0dc70d4ed2df081418c8fe6/Data/FrameCompose.customCode
+  Assets:
+    - !<BinAsset/59fd800a-0254-49eb-a8e4-78bc8846ffa2>
+      PackagePath: ""
+  SourceHash: 8a7df9a8c0dc70d4ed2df081418c8fe6
+  FileHash: 13c26ca5198be67ceb7c769c2e23185c
+  NativePackageItems:
+    []

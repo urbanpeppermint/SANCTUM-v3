@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    82f9cfa3-9bd4-47a8-9cc5-083cdd5f3d30: 8dd99b67-0594-d379-5cd9-0e89e1b46b8b/80a91bddaf0cd79230d9e2f1781d5579/Data/BeveledPrismShader.customCode
+  Assets:
+    - !<BinAsset/82f9cfa3-9bd4-47a8-9cc5-083cdd5f3d30>
+      PackagePath: ""
+  SourceHash: 80a91bddaf0cd79230d9e2f1781d5579
+  FileHash: 6ed779fa17b980d5061eb6cf1edc1815
+  NativePackageItems:
+    []

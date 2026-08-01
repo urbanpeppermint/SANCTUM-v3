@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    4c8d97ad-b211-408a-8de2-981c359462b5: 49e3234f-92e4-c6d3-92b3-c0839422c67c/eeac38924d3ab370f7d5b80ee2533a22/Data/Neon Waves.graphShader
+  Assets:
+    - !<BinAsset/4c8d97ad-b211-408a-8de2-981c359462b5>
+      PackagePath: ""
+  SourceHash: eeac38924d3ab370f7d5b80ee2533a22
+  FileHash: cc9a4292030489d90eaab0a5da219e01
+  NativePackageItems:
+    []

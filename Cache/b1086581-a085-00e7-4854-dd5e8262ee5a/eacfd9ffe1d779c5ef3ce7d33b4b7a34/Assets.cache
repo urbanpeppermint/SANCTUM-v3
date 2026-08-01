@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f92a4a15-dba1-43e2-86b1-925ea6bae2aa: b1086581-a085-00e7-4854-dd5e8262ee5a/eacfd9ffe1d779c5ef3ce7d33b4b7a34/Data/BeveledPrismGraph.graphShader
+  Assets:
+    - !<BinAsset/f92a4a15-dba1-43e2-86b1-925ea6bae2aa>
+      PackagePath: ""
+  SourceHash: eacfd9ffe1d779c5ef3ce7d33b4b7a34
+  FileHash: aadcb843553614d354678db3fd8cc9c2
+  NativePackageItems:
+    []

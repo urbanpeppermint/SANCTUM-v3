@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8d1a8a57-b298-4af2-a359-141c4f8920f1: 446e5e87-64e8-3ed5-cf2a-ff55fb0844f3/b25fe18a8b4c63f4cf4882fd98804d5c/Data/Example.graphVfx
+  Assets:
+    - !<BinAsset/8d1a8a57-b298-4af2-a359-141c4f8920f1>
+      PackagePath: ""
+  SourceHash: b25fe18a8b4c63f4cf4882fd98804d5c
+  FileHash: beaedab0cc26f23211a80c1e89df9672
+  NativePackageItems:
+    []

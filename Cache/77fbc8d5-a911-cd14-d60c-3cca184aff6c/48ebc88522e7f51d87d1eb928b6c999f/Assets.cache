@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a41ebae7-59b9-487d-b463-0fdec23ece4f: 77fbc8d5-a911-cd14-d60c-3cca184aff6c/48ebc88522e7f51d87d1eb928b6c999f/Data/grab-handle.png
+  Assets:
+    - !<FileTexture/a41ebae7-59b9-487d-b463-0fdec23ece4f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 8
+        Height: 71
+  SourceHash: 48ebc88522e7f51d87d1eb928b6c999f
+  FileHash: 2dd22760348d8502745bb62c0d2dc614
+  NativePackageItems:
+    []

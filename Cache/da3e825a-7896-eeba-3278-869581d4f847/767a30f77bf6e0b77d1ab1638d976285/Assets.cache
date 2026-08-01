@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    512b7c7e-346b-49b4-ae90-68da9a295382: "da3e825a-7896-eeba-3278-869581d4f847/767a30f77bf6e0b77d1ab1638d976285/Data/Multiplication {Edit Echo Distance}.graphShader"
+  Assets:
+    - !<BinAsset/512b7c7e-346b-49b4-ae90-68da9a295382>
+      PackagePath: ""
+  SourceHash: 767a30f77bf6e0b77d1ab1638d976285
+  FileHash: 4a622799b37b50145264f9f91054be30
+  NativePackageItems:
+    []

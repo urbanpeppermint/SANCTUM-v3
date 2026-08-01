@@ -1,0 +1,96 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Vertex Distortion",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "animated",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Animated",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "-5",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "animatedSpeed",
+                    	"label":       "Animated Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         20,
+                    	"step":        "0.01",
+                    	"sortIndex":   "-5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "offset",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "-3",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "strength",
+                    	"label":       "Strength",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.9"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseScale",
+                    	"label":       "Noise Scale",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "The frequency of the noise. Smaller values create less frequency, which looks smoother. Larger values create more frequent noise, ",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

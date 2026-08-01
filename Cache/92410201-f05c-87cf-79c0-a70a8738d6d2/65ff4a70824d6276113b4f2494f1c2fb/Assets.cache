@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4b662b23-b8fa-4682-babf-1a164e51a571: 92410201-f05c-87cf-79c0-a70a8738d6d2/65ff4a70824d6276113b4f2494f1c2fb/Data/Chevron-up.png
+  Assets:
+    - !<FileTexture/4b662b23-b8fa-4682-babf-1a164e51a571>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: 65ff4a70824d6276113b4f2494f1c2fb
+  FileHash: 649ab916dbd41232f836991f59c38aba
+  NativePackageItems:
+    []

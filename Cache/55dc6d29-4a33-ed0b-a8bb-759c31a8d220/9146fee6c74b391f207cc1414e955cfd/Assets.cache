@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    c8e35474-55d1-4859-a3f1-05f2c5f42d64: 55dc6d29-4a33-ed0b-a8bb-759c31a8d220/9146fee6c74b391f207cc1414e955cfd/Data/BeveledPrismGraphPort.customCode
+  Assets:
+    - !<BinAsset/c8e35474-55d1-4859-a3f1-05f2c5f42d64>
+      PackagePath: ""
+  SourceHash: 9146fee6c74b391f207cc1414e955cfd
+  FileHash: 0ce4e3d97c3701f4aaaa8adf4616ebd9
+  NativePackageItems:
+    []

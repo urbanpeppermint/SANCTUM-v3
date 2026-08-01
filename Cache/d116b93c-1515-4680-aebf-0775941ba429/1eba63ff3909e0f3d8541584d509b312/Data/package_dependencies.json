@@ -1,0 +1,12 @@
+{
+    "dependencies": [
+        {
+            "assetId": "1aPW5eMfMPeP1615dXiqyN",
+            "exportId": "1861de65-cfc9-41ce-b127-551c81d87e05",
+            "id": "0f7a0bbe-777c-41a5-b979-0b0430f25836",
+            "name": "SpectaclesInteractionKit",
+            "version": "2.0.0",
+            "versionOverride": ""
+        }
+    ]
+}

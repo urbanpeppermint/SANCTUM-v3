@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    66e49884-90f5-416d-a2f2-361d052b1a53: cd0b3a9c-ad18-c1a8-35ec-64e818fdfe55/ac96cb87b513efde510038bf6f3f4e55/Data/Mask3DBox.mesh
+  Assets:
+    - !<FileMesh/66e49884-90f5-416d-a2f2-361d052b1a53>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.999999, y: 0.999999, z: 0.999999}
+  SourceHash: ac96cb87b513efde510038bf6f3f4e55
+  FileHash: 15029ed3b0de51096783f94ebdf80156
+  NativePackageItems:
+    []

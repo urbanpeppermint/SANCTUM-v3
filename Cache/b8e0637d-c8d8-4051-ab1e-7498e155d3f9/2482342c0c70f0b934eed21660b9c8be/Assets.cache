@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    89172cb2-fdd4-4bfe-a0ed-405f0a612196: b8e0637d-c8d8-4051-ab1e-7498e155d3f9/2482342c0c70f0b934eed21660b9c8be/Data/Venetian Blinds.t3d
+    0aa6e100-cccd-4c91-b359-f5ccb8c291b6: b8e0637d-c8d8-4051-ab1e-7498e155d3f9/2482342c0c70f0b934eed21660b9c8be/Data/Venetian Blinds b w 256_0.png
+  Assets:
+    - !<AnimatedTexture/89172cb2-fdd4-4bfe-a0ed-405f0a612196>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.639999
+            value: 66
+      ReverseSupported: true
+      FrameSize: {x: 227, y: 227}
+      AnimationSequences:
+        default: 66
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/0aa6e100-cccd-4c91-b359-f5ccb8c291b6>
+      PackagePath: Venetian Blinds b w 256_0.png
+      FileInfo: !<FileTextureInfo>
+        Width: 2043
+        Height: 1816
+  SourceHash: 2482342c0c70f0b934eed21660b9c8be
+  FileHash: 823df6eb039ca5900bcfa0e86d043082
+  NativePackageItems:
+    []

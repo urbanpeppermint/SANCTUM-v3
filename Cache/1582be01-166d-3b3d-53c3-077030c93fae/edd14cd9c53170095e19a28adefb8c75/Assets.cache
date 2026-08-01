@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    58e3a7f8-d807-4b70-a4fe-2acc73dedb0d: 1582be01-166d-3b3d-53c3-077030c93fae/edd14cd9c53170095e19a28adefb8c75/Data/CollapsedSquircleGraph.graphShader
+  Assets:
+    - !<BinAsset/58e3a7f8-d807-4b70-a4fe-2acc73dedb0d>
+      PackagePath: ""
+  SourceHash: edd14cd9c53170095e19a28adefb8c75
+  FileHash: f1bf451aecd6cf6d25db3c269bf81d8d
+  NativePackageItems:
+    []
