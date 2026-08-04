@@ -160,13 +160,13 @@ Inputs:
 
 ## 📄 License
 
-MIT License
+Apache‑2.0
 
 ---
 
 ## 🙏 Acknowledgments
 
 - Snap Inc.
+- Spectacles 
 - OpenAI
-- Spectacles Community
 - Spectacles Agent Skills by PtPavloTkachenko
